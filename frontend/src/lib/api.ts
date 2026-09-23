@@ -168,6 +168,8 @@ function classify(status: number, detail: string): ApiFailureKind {
   return "server";
 }
 
+const API_BASE_URL = import.meta.env.VITE_API_URL || "";
+
 async function request<T>(url: string, init?: RequestInit): Promise<T> {
   let response: Response;
   try {
@@ -184,18 +186,21 @@ async function request<T>(url: string, init?: RequestInit): Promise<T> {
 }
 
 export function getHealth(): Promise<HealthResponse> {
-  return request<HealthResponse>("/health");
+  return request<HealthResponse>(`${API_BASE_URL}/health`);
 }
 
 export function getMeta(): Promise<MetaResponse> {
-  return request<MetaResponse>("/meta");
+  return request<MetaResponse>(`${API_BASE_URL}/meta`);
 }
 
 export function ask(question: string, signal?: AbortSignal): Promise<AskResponse> {
-  return request<AskResponse>("/ask", {
+  return request<AskResponse>(`${API_BASE_URL}/ask`, {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify({ question }),
     signal,
   });
 }
+
+
+
