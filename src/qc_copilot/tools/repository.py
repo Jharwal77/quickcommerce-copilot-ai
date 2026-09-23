@@ -362,6 +362,7 @@ class MySQLRepository:
             "user": user,
             "password": password,
             "database": database,
+            "ssl_disabled": False,
         }
 
         self._conn = mysql.connector.connect(**self.config)
