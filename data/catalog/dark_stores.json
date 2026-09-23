@@ -1,0 +1,96 @@
+[
+  {
+    "store_id": "DS-BLR-001",
+    "name": "Indiranagar Dark Store",
+    "city": "Bengaluru",
+    "state": "KA",
+    "serviceable_pincodes": [
+      "560038",
+      "560008",
+      "560071"
+    ],
+    "service_radius_km": 3.0,
+    "opens_at": "06:00",
+    "closes_at": "23:59",
+    "avg_pick_pack_minutes": 6,
+    "rider_count": 12
+  },
+  {
+    "store_id": "DS-BLR-002",
+    "name": "Koramangala Dark Store",
+    "city": "Bengaluru",
+    "state": "KA",
+    "serviceable_pincodes": [
+      "560034",
+      "560095",
+      "560047"
+    ],
+    "service_radius_km": 2.5,
+    "opens_at": "06:00",
+    "closes_at": "23:59",
+    "avg_pick_pack_minutes": 6,
+    "rider_count": 13
+  },
+  {
+    "store_id": "DS-DEL-001",
+    "name": "Saket Dark Store",
+    "city": "Delhi",
+    "state": "DL",
+    "serviceable_pincodes": [
+      "110017",
+      "110019",
+      "110048"
+    ],
+    "service_radius_km": 3.5,
+    "opens_at": "07:00",
+    "closes_at": "23:00",
+    "avg_pick_pack_minutes": 7,
+    "rider_count": 9
+  },
+  {
+    "store_id": "DS-DEL-002",
+    "name": "Rohini Dark Store",
+    "city": "Delhi",
+    "state": "DL",
+    "serviceable_pincodes": [
+      "110085",
+      "110089"
+    ],
+    "service_radius_km": 4.0,
+    "opens_at": "07:00",
+    "closes_at": "22:30",
+    "avg_pick_pack_minutes": 6,
+    "rider_count": 17
+  },
+  {
+    "store_id": "DS-MUM-001",
+    "name": "Andheri West Dark Store",
+    "city": "Mumbai",
+    "state": "MH",
+    "serviceable_pincodes": [
+      "400053",
+      "400058",
+      "400102"
+    ],
+    "service_radius_km": 2.5,
+    "opens_at": "06:30",
+    "closes_at": "23:30",
+    "avg_pick_pack_minutes": 7,
+    "rider_count": 19
+  },
+  {
+    "store_id": "DS-MUM-002",
+    "name": "Powai Dark Store",
+    "city": "Mumbai",
+    "state": "MH",
+    "serviceable_pincodes": [
+      "400076",
+      "400072"
+    ],
+    "service_radius_km": 3.0,
+    "opens_at": "07:00",
+    "closes_at": "23:00",
+    "avg_pick_pack_minutes": 7,
+    "rider_count": 11
+  }
+]

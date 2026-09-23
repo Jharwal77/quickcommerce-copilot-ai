@@ -1,0 +1,1062 @@
+[
+  {
+    "order_id": "QC240007",
+    "store_id": "DS-DEL-001",
+    "customer_pincode": "110048",
+    "status": "OUT_FOR_DELIVERY",
+    "placed_at": "2026-03-14T09:24:00+00:00",
+    "promised_eta_minutes": 12,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-STAPLE-ANNAP-CHANA-DAL-500",
+        "quantity": 3,
+        "unit_price_inr": 68.64
+      },
+      {
+        "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-200",
+        "quantity": 2,
+        "unit_price_inr": 178.5
+      },
+      {
+        "sku": "QC-PERSON-DENTI-FLUORIDE-T-200",
+        "quantity": 2,
+        "unit_price_inr": 150.1
+      },
+      {
+        "sku": "QC-BAKERY-OVENL-BUTTER-CRO-4",
+        "quantity": 3,
+        "unit_price_inr": 162.8
+      },
+      {
+        "sku": "QC-DAIRY--NANDH-TONED-MILK-500",
+        "quantity": 2,
+        "unit_price_inr": 26.19
+      }
+    ],
+    "order_total_inr": 1403.9,
+    "payment_mode": "UPI",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240014",
+    "store_id": "DS-BLR-001",
+    "customer_pincode": "560008",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-11T09:06:00+00:00",
+    "promised_eta_minutes": 8,
+    "delivered_at": "2026-03-11T09:23:00+00:00",
+    "items": [
+      {
+        "sku": "QC-SNACKS-CRISP-PERI-PERI--90",
+        "quantity": 1,
+        "unit_price_inr": 41.4
+      }
+    ],
+    "order_total_inr": 41.4,
+    "payment_mode": "CARD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240021",
+    "store_id": "DS-BLR-001",
+    "customer_pincode": "560071",
+    "status": "PLACED",
+    "placed_at": "2026-03-14T09:25:00+00:00",
+    "promised_eta_minutes": 12,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-HOME---WRAPW-GARBAGE-BA-30",
+        "quantity": 1,
+        "unit_price_inr": 87.4
+      },
+      {
+        "sku": "QC-HOME---SHINE-LAUNDRY-LI-2000",
+        "quantity": 3,
+        "unit_price_inr": 513.0
+      },
+      {
+        "sku": "QC-PERSON-PUREL-SUNSCREEN--100",
+        "quantity": 3,
+        "unit_price_inr": 528.65
+      }
+    ],
+    "order_total_inr": 3212.35,
+    "payment_mode": "COD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240028",
+    "store_id": "DS-DEL-002",
+    "customer_pincode": "110089",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-08T10:26:00+00:00",
+    "promised_eta_minutes": 8,
+    "delivered_at": "2026-03-08T10:44:00+00:00",
+    "items": [
+      {
+        "sku": "QC-FRUITS-GREEN-BABY-SPINA-250",
+        "quantity": 1,
+        "unit_price_inr": 47.53
+      },
+      {
+        "sku": "QC-HOME---WRAPW-GARBAGE-BA-30",
+        "quantity": 3,
+        "unit_price_inr": 87.4
+      },
+      {
+        "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-400",
+        "quantity": 2,
+        "unit_price_inr": 339.15
+      },
+      {
+        "sku": "QC-FROZEN-FROST-GREEN-PEAS-1000",
+        "quantity": 3,
+        "unit_price_inr": 155.0
+      },
+      {
+        "sku": "QC-STAPLE-ANNAP-SONA-MASOO-5",
+        "quantity": 2,
+        "unit_price_inr": 365.75
+      }
+    ],
+    "order_total_inr": 2184.53,
+    "payment_mode": "UPI",
+    "substitution_applied": true
+  },
+  {
+    "order_id": "QC240035",
+    "store_id": "DS-DEL-002",
+    "customer_pincode": "110089",
+    "status": "PACKED",
+    "placed_at": "2026-03-14T09:05:00+00:00",
+    "promised_eta_minutes": 25,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-BEVERA-FIZZK-LEMON-SODA-750",
+        "quantity": 2,
+        "unit_price_inr": 57.2
+      }
+    ],
+    "order_total_inr": 114.4,
+    "payment_mode": "WALLET",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240042",
+    "store_id": "DS-DEL-001",
+    "customer_pincode": "110017",
+    "status": "PACKED",
+    "placed_at": "2026-03-14T09:00:00+00:00",
+    "promised_eta_minutes": 18,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-DAIRY--NANDH-TONED-MILK-1000",
+        "quantity": 1,
+        "unit_price_inr": 51.52
+      }
+    ],
+    "order_total_inr": 51.52,
+    "payment_mode": "UPI",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240049",
+    "store_id": "DS-BLR-001",
+    "customer_pincode": "560071",
+    "status": "RETURN_REQUESTED",
+    "placed_at": "2026-03-06T08:08:00+00:00",
+    "promised_eta_minutes": 20,
+    "delivered_at": "2026-03-06T08:42:00+00:00",
+    "items": [
+      {
+        "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-5",
+        "quantity": 2,
+        "unit_price_inr": 204.0
+      }
+    ],
+    "order_total_inr": 408.0,
+    "payment_mode": "COD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240056",
+    "store_id": "DS-MUM-001",
+    "customer_pincode": "400053",
+    "status": "RETURN_REQUESTED",
+    "placed_at": "2026-03-13T05:53:00+00:00",
+    "promised_eta_minutes": 18,
+    "delivered_at": "2026-03-13T06:15:00+00:00",
+    "items": [
+      {
+        "sku": "QC-SNACKS-BHUJI-MOONG-DAL--400",
+        "quantity": 2,
+        "unit_price_inr": 108.64
+      },
+      {
+        "sku": "QC-SNACKS-BHUJI-MOONG-DAL--200",
+        "quantity": 3,
+        "unit_price_inr": 49.3
+      },
+      {
+        "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-400",
+        "quantity": 1,
+        "unit_price_inr": 339.15
+      },
+      {
+        "sku": "QC-PERSON-SILKS-ANTI-DANDR-340",
+        "quantity": 1,
+        "unit_price_inr": 385.0
+      }
+    ],
+    "order_total_inr": 1089.33,
+    "payment_mode": "CARD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240063",
+    "store_id": "DS-BLR-001",
+    "customer_pincode": "560071",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-07T22:26:00+00:00",
+    "promised_eta_minutes": 20,
+    "delivered_at": "2026-03-07T22:56:00+00:00",
+    "items": [
+      {
+        "sku": "QC-BABY-C-TINYT-BABY-DIAPE-32",
+        "quantity": 3,
+        "unit_price_inr": 483.12
+      },
+      {
+        "sku": "QC-BABY-C-TINYT-BABY-LOTIO-100",
+        "quantity": 2,
+        "unit_price_inr": 179.45
+      }
+    ],
+    "order_total_inr": 1808.26,
+    "payment_mode": "WALLET",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240070",
+    "store_id": "DS-BLR-001",
+    "customer_pincode": "560038",
+    "status": "PACKED",
+    "placed_at": "2026-03-14T09:26:00+00:00",
+    "promised_eta_minutes": 25,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-BEVERA-HYDRA-ELECTROLYT-250",
+        "quantity": 1,
+        "unit_price_inr": 281.3
+      },
+      {
+        "sku": "QC-DAIRY--AMULY-SALTED-BUT-500",
+        "quantity": 2,
+        "unit_price_inr": 262.2
+      },
+      {
+        "sku": "QC-BEVERA-ZESTA-ORANGE-JUI-1000",
+        "quantity": 2,
+        "unit_price_inr": 141.55
+      },
+      {
+        "sku": "QC-FRUITS-GREEN-CHERRY-TOM-200",
+        "quantity": 3,
+        "unit_price_inr": 41.4
+      },
+      {
+        "sku": "QC-DAIRY--NANDH-TONED-MILK-500",
+        "quantity": 3,
+        "unit_price_inr": 26.19
+      }
+    ],
+    "order_total_inr": 1291.57,
+    "payment_mode": "COD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240077",
+    "store_id": "DS-MUM-001",
+    "customer_pincode": "400053",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-07T00:38:00+00:00",
+    "promised_eta_minutes": 20,
+    "delivered_at": "2026-03-07T01:01:00+00:00",
+    "items": [
+      {
+        "sku": "QC-PERSON-PUREL-SUNSCREEN--100",
+        "quantity": 3,
+        "unit_price_inr": 528.65
+      },
+      {
+        "sku": "QC-PERSON-SILKS-BODY-LOTIO-200",
+        "quantity": 1,
+        "unit_price_inr": 175.12
+      },
+      {
+        "sku": "QC-FROZEN-CHEFS-PANEER-BUT-285",
+        "quantity": 3,
+        "unit_price_inr": 160.05
+      },
+      {
+        "sku": "QC-BEVERA-CHAIW-MASALA-CHA-500",
+        "quantity": 3,
+        "unit_price_inr": 225.4
+      }
+    ],
+    "order_total_inr": 2917.42,
+    "payment_mode": "CARD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240084",
+    "store_id": "DS-MUM-002",
+    "customer_pincode": "400072",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-10T04:39:00+00:00",
+    "promised_eta_minutes": 18,
+    "delivered_at": "2026-03-10T05:04:00+00:00",
+    "items": [
+      {
+        "sku": "QC-FRUITS-GREEN-CHERRY-TOM-200",
+        "quantity": 1,
+        "unit_price_inr": 41.4
+      },
+      {
+        "sku": "QC-FRUITS-FARML-ONION-1000",
+        "quantity": 1,
+        "unit_price_inr": 27.6
+      },
+      {
+        "sku": "QC-PERSON-SILKS-BODY-LOTIO-200",
+        "quantity": 2,
+        "unit_price_inr": 175.12
+      },
+      {
+        "sku": "QC-FROZEN-FROST-MIXED-VEGE-500",
+        "quantity": 2,
+        "unit_price_inr": 74.8
+      }
+    ],
+    "order_total_inr": 568.84,
+    "payment_mode": "WALLET",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240091",
+    "store_id": "DS-MUM-001",
+    "customer_pincode": "400053",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-07T12:27:00+00:00",
+    "promised_eta_minutes": 10,
+    "delivered_at": "2026-03-07T12:44:00+00:00",
+    "items": [
+      {
+        "sku": "QC-FRUITS-GREEN-BABY-SPINA-250",
+        "quantity": 2,
+        "unit_price_inr": 47.53
+      }
+    ],
+    "order_total_inr": 95.06,
+    "payment_mode": "UPI",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240098",
+    "store_id": "DS-BLR-001",
+    "customer_pincode": "560038",
+    "status": "OUT_FOR_DELIVERY",
+    "placed_at": "2026-03-14T09:11:00+00:00",
+    "promised_eta_minutes": 8,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-FRUITS-FARML-TOMATO-HYB-1000",
+        "quantity": 2,
+        "unit_price_inr": 42.24
+      },
+      {
+        "sku": "QC-FRUITS-GREEN-CHERRY-TOM-200",
+        "quantity": 1,
+        "unit_price_inr": 41.4
+      },
+      {
+        "sku": "QC-STAPLE-GOLDP-SUNFLOWER--1000",
+        "quantity": 1,
+        "unit_price_inr": 128.25
+      }
+    ],
+    "order_total_inr": 254.13,
+    "payment_mode": "WALLET",
+    "substitution_applied": true
+  },
+  {
+    "order_id": "QC240105",
+    "store_id": "DS-BLR-002",
+    "customer_pincode": "560095",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-12T00:02:00+00:00",
+    "promised_eta_minutes": 25,
+    "delivered_at": "2026-03-12T00:29:00+00:00",
+    "items": [
+      {
+        "sku": "QC-FRUITS-FARML-TOMATO-HYB-500",
+        "quantity": 1,
+        "unit_price_inr": 19.36
+      },
+      {
+        "sku": "QC-BAKERY-OVENL-BUTTER-CRO-2",
+        "quantity": 3,
+        "unit_price_inr": 80.75
+      }
+    ],
+    "order_total_inr": 261.61,
+    "payment_mode": "WALLET",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240112",
+    "store_id": "DS-BLR-001",
+    "customer_pincode": "560008",
+    "status": "CANCELLED",
+    "placed_at": "2026-03-05T20:52:00+00:00",
+    "promised_eta_minutes": 20,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-DAIRY--NANDH-TONED-MILK-500",
+        "quantity": 3,
+        "unit_price_inr": 26.19
+      }
+    ],
+    "order_total_inr": 78.57,
+    "payment_mode": "UPI",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240119",
+    "store_id": "DS-DEL-002",
+    "customer_pincode": "110089",
+    "status": "CANCELLED",
+    "placed_at": "2026-03-07T03:45:00+00:00",
+    "promised_eta_minutes": 15,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-BEVERA-ZESTA-COLD-BREW--200",
+        "quantity": 2,
+        "unit_price_inr": 78.32
+      }
+    ],
+    "order_total_inr": 156.64,
+    "payment_mode": "CARD",
+    "substitution_applied": true
+  },
+  {
+    "order_id": "QC240126",
+    "store_id": "DS-BLR-001",
+    "customer_pincode": "560038",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-06T01:28:00+00:00",
+    "promised_eta_minutes": 10,
+    "delivered_at": "2026-03-06T01:47:00+00:00",
+    "items": [
+      {
+        "sku": "QC-SNACKS-BHUJI-MOONG-DAL--200",
+        "quantity": 2,
+        "unit_price_inr": 49.3
+      },
+      {
+        "sku": "QC-BABY-C-TINYT-BABY-LOTIO-100",
+        "quantity": 2,
+        "unit_price_inr": 179.45
+      },
+      {
+        "sku": "QC-STAPLE-ANNAP-SONA-MASOO-5",
+        "quantity": 1,
+        "unit_price_inr": 365.75
+      }
+    ],
+    "order_total_inr": 823.25,
+    "payment_mode": "UPI",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240133",
+    "store_id": "DS-MUM-002",
+    "customer_pincode": "400076",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-11T19:27:00+00:00",
+    "promised_eta_minutes": 25,
+    "delivered_at": "2026-03-11T19:56:00+00:00",
+    "items": [
+      {
+        "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-10",
+        "quantity": 2,
+        "unit_price_inr": 413.6
+      },
+      {
+        "sku": "QC-BAKERY-OVENL-WHOLE-WHEA-400",
+        "quantity": 3,
+        "unit_price_inr": 40.8
+      },
+      {
+        "sku": "QC-DAIRY--NANDH-FULL-CREAM-1000",
+        "quantity": 2,
+        "unit_price_inr": 65.96
+      }
+    ],
+    "order_total_inr": 1081.52,
+    "payment_mode": "CARD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240140",
+    "store_id": "DS-DEL-002",
+    "customer_pincode": "110089",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-13T13:10:00+00:00",
+    "promised_eta_minutes": 15,
+    "delivered_at": "2026-03-13T13:25:00+00:00",
+    "items": [
+      {
+        "sku": "QC-PERSON-PUREL-ALOE-FACE--100",
+        "quantity": 2,
+        "unit_price_inr": 140.25
+      }
+    ],
+    "order_total_inr": 280.5,
+    "payment_mode": "CARD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240147",
+    "store_id": "DS-BLR-001",
+    "customer_pincode": "560071",
+    "status": "CANCELLED",
+    "placed_at": "2026-03-12T07:50:00+00:00",
+    "promised_eta_minutes": 15,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-BABY-C-TINYT-BABY-LOTIO-100",
+        "quantity": 1,
+        "unit_price_inr": 179.45
+      },
+      {
+        "sku": "QC-PERSON-PUREL-SUNSCREEN--50",
+        "quantity": 1,
+        "unit_price_inr": 272.0
+      }
+    ],
+    "order_total_inr": 451.45,
+    "payment_mode": "CARD",
+    "substitution_applied": true
+  },
+  {
+    "order_id": "QC240154",
+    "store_id": "DS-BLR-001",
+    "customer_pincode": "560008",
+    "status": "OUT_FOR_DELIVERY",
+    "placed_at": "2026-03-14T09:15:00+00:00",
+    "promised_eta_minutes": 15,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-FRUITS-FARML-BANANA-ROB-1000",
+        "quantity": 3,
+        "unit_price_inr": 62.0
+      },
+      {
+        "sku": "QC-BABY-C-TINYT-BABY-LOTIO-100",
+        "quantity": 2,
+        "unit_price_inr": 179.45
+      }
+    ],
+    "order_total_inr": 544.9,
+    "payment_mode": "UPI",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240161",
+    "store_id": "DS-DEL-002",
+    "customer_pincode": "110085",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-08T23:27:00+00:00",
+    "promised_eta_minutes": 10,
+    "delivered_at": "2026-03-08T23:40:00+00:00",
+    "items": [
+      {
+        "sku": "QC-BABY-C-TINYT-BABY-DIAPE-32",
+        "quantity": 3,
+        "unit_price_inr": 483.12
+      },
+      {
+        "sku": "QC-DAIRY--NANDH-TONED-MILK-1000",
+        "quantity": 1,
+        "unit_price_inr": 51.52
+      }
+    ],
+    "order_total_inr": 1500.88,
+    "payment_mode": "UPI",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240168",
+    "store_id": "DS-DEL-001",
+    "customer_pincode": "110019",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-11T02:08:00+00:00",
+    "promised_eta_minutes": 12,
+    "delivered_at": "2026-03-11T02:25:00+00:00",
+    "items": [
+      {
+        "sku": "QC-DAIRY--NANDH-FULL-CREAM-1000",
+        "quantity": 2,
+        "unit_price_inr": 65.96
+      },
+      {
+        "sku": "QC-DAIRY--AMULY-SALTED-BUT-500",
+        "quantity": 1,
+        "unit_price_inr": 262.2
+      },
+      {
+        "sku": "QC-SNACKS-BHUJI-ALOO-BHUJI-200",
+        "quantity": 2,
+        "unit_price_inr": 52.25
+      },
+      {
+        "sku": "QC-FROZEN-FROST-MIXED-VEGE-1000",
+        "quantity": 2,
+        "unit_price_inr": 151.8
+      }
+    ],
+    "order_total_inr": 802.22,
+    "payment_mode": "WALLET",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240175",
+    "store_id": "DS-DEL-001",
+    "customer_pincode": "110048",
+    "status": "PACKED",
+    "placed_at": "2026-03-14T09:24:00+00:00",
+    "promised_eta_minutes": 18,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-BABY-C-TINYT-BABY-WIPES-144",
+        "quantity": 2,
+        "unit_price_inr": 251.75
+      },
+      {
+        "sku": "QC-PERSON-PUREL-SUNSCREEN--100",
+        "quantity": 2,
+        "unit_price_inr": 528.65
+      }
+    ],
+    "order_total_inr": 1560.8,
+    "payment_mode": "WALLET",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240182",
+    "store_id": "DS-BLR-002",
+    "customer_pincode": "560034",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-06T05:36:00+00:00",
+    "promised_eta_minutes": 15,
+    "delivered_at": "2026-03-06T05:51:00+00:00",
+    "items": [
+      {
+        "sku": "QC-BABY-C-TINYT-BABY-WIPES-72",
+        "quantity": 1,
+        "unit_price_inr": 133.4
+      },
+      {
+        "sku": "QC-FRUITS-GREEN-CHERRY-TOM-200",
+        "quantity": 2,
+        "unit_price_inr": 41.4
+      }
+    ],
+    "order_total_inr": 216.2,
+    "payment_mode": "CARD",
+    "substitution_applied": true
+  },
+  {
+    "order_id": "QC240189",
+    "store_id": "DS-DEL-002",
+    "customer_pincode": "110089",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-14T08:07:00+00:00",
+    "promised_eta_minutes": 8,
+    "delivered_at": "2026-03-14T08:27:00+00:00",
+    "items": [
+      {
+        "sku": "QC-FRUITS-FARML-BANANA-ROB-500",
+        "quantity": 2,
+        "unit_price_inr": 34.0
+      }
+    ],
+    "order_total_inr": 68.0,
+    "payment_mode": "COD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240196",
+    "store_id": "DS-DEL-002",
+    "customer_pincode": "110085",
+    "status": "OUT_FOR_DELIVERY",
+    "placed_at": "2026-03-14T09:24:00+00:00",
+    "promised_eta_minutes": 20,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-HOME---SHINE-DISHWASH-G-1000",
+        "quantity": 3,
+        "unit_price_inr": 195.0
+      },
+      {
+        "sku": "QC-STAPLE-ANNAP-SONA-MASOO-10",
+        "quantity": 2,
+        "unit_price_inr": 668.8
+      },
+      {
+        "sku": "QC-BABY-C-TINYT-BABY-DIAPE-32",
+        "quantity": 1,
+        "unit_price_inr": 483.12
+      },
+      {
+        "sku": "QC-SNACKS-NUTLA-ROASTED-AL-500",
+        "quantity": 1,
+        "unit_price_inr": 538.2
+      }
+    ],
+    "order_total_inr": 2943.92,
+    "payment_mode": "CARD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240203",
+    "store_id": "DS-MUM-002",
+    "customer_pincode": "400076",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-09T21:12:00+00:00",
+    "promised_eta_minutes": 10,
+    "delivered_at": "2026-03-09T21:30:00+00:00",
+    "items": [
+      {
+        "sku": "QC-STAPLE-GOLDP-SUNFLOWER--1000",
+        "quantity": 3,
+        "unit_price_inr": 128.25
+      }
+    ],
+    "order_total_inr": 384.75,
+    "payment_mode": "UPI",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240210",
+    "store_id": "DS-BLR-002",
+    "customer_pincode": "560047",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-07T06:15:00+00:00",
+    "promised_eta_minutes": 18,
+    "delivered_at": "2026-03-07T06:35:00+00:00",
+    "items": [
+      {
+        "sku": "QC-FRUITS-GREEN-CHERRY-TOM-400",
+        "quantity": 2,
+        "unit_price_inr": 80.75
+      }
+    ],
+    "order_total_inr": 161.5,
+    "payment_mode": "CARD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240217",
+    "store_id": "DS-BLR-002",
+    "customer_pincode": "560034",
+    "status": "PLACED",
+    "placed_at": "2026-03-14T09:27:00+00:00",
+    "promised_eta_minutes": 15,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-HOME---WRAPW-GARBAGE-BA-30",
+        "quantity": 3,
+        "unit_price_inr": 87.4
+      },
+      {
+        "sku": "QC-FRUITS-FARML-TOMATO-HYB-500",
+        "quantity": 3,
+        "unit_price_inr": 19.36
+      },
+      {
+        "sku": "QC-FRUITS-GREEN-CHERRY-TOM-400",
+        "quantity": 1,
+        "unit_price_inr": 80.75
+      }
+    ],
+    "order_total_inr": 401.03,
+    "payment_mode": "CARD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240224",
+    "store_id": "DS-BLR-001",
+    "customer_pincode": "560008",
+    "status": "OUT_FOR_DELIVERY",
+    "placed_at": "2026-03-14T09:05:00+00:00",
+    "promised_eta_minutes": 25,
+    "delivered_at": null,
+    "items": [
+      {
+        "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-5",
+        "quantity": 2,
+        "unit_price_inr": 204.0
+      },
+      {
+        "sku": "QC-FRUITS-FARML-ALPHONSO-M-1000",
+        "quantity": 1,
+        "unit_price_inr": 228.0
+      },
+      {
+        "sku": "QC-FRUITS-FARML-ONION-1000",
+        "quantity": 2,
+        "unit_price_inr": 27.6
+      },
+      {
+        "sku": "QC-SNACKS-CRISP-SALTED-POT-52",
+        "quantity": 3,
+        "unit_price_inr": 19.4
+      },
+      {
+        "sku": "QC-BABY-C-TINYT-BABY-LOTIO-200",
+        "quantity": 1,
+        "unit_price_inr": 294.4
+      }
+    ],
+    "order_total_inr": 1043.8,
+    "payment_mode": "CARD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240231",
+    "store_id": "DS-BLR-001",
+    "customer_pincode": "560008",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-07T20:52:00+00:00",
+    "promised_eta_minutes": 8,
+    "delivered_at": "2026-03-07T21:04:00+00:00",
+    "items": [
+      {
+        "sku": "QC-FRUITS-FARML-ALPHONSO-M-1000",
+        "quantity": 3,
+        "unit_price_inr": 228.0
+      }
+    ],
+    "order_total_inr": 684.0,
+    "payment_mode": "WALLET",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240238",
+    "store_id": "DS-BLR-001",
+    "customer_pincode": "560038",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-09T18:14:00+00:00",
+    "promised_eta_minutes": 20,
+    "delivered_at": "2026-03-09T18:33:00+00:00",
+    "items": [
+      {
+        "sku": "QC-FROZEN-FROST-GREEN-PEAS-1000",
+        "quantity": 1,
+        "unit_price_inr": 155.0
+      },
+      {
+        "sku": "QC-HOME---SHINE-DISHWASH-G-1000",
+        "quantity": 2,
+        "unit_price_inr": 195.0
+      },
+      {
+        "sku": "QC-SNACKS-BHUJI-MOONG-DAL--200",
+        "quantity": 3,
+        "unit_price_inr": 49.3
+      },
+      {
+        "sku": "QC-HOME---WRAPW-GARBAGE-BA-60",
+        "quantity": 1,
+        "unit_price_inr": 166.25
+      }
+    ],
+    "order_total_inr": 859.15,
+    "payment_mode": "WALLET",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240245",
+    "store_id": "DS-MUM-002",
+    "customer_pincode": "400072",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-10T21:15:00+00:00",
+    "promised_eta_minutes": 12,
+    "delivered_at": "2026-03-10T21:38:00+00:00",
+    "items": [
+      {
+        "sku": "QC-DAIRY--NANDH-FULL-CREAM-500",
+        "quantity": 3,
+        "unit_price_inr": 33.0
+      },
+      {
+        "sku": "QC-STAPLE-GOLDP-SUNFLOWER--1000",
+        "quantity": 1,
+        "unit_price_inr": 128.25
+      },
+      {
+        "sku": "QC-FRUITS-GREEN-CHERRY-TOM-400",
+        "quantity": 3,
+        "unit_price_inr": 80.75
+      },
+      {
+        "sku": "QC-SNACKS-NUTLA-ROASTED-AL-500",
+        "quantity": 3,
+        "unit_price_inr": 538.2
+      }
+    ],
+    "order_total_inr": 2084.1,
+    "payment_mode": "UPI",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240252",
+    "store_id": "DS-DEL-002",
+    "customer_pincode": "110085",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-06T18:47:00+00:00",
+    "promised_eta_minutes": 15,
+    "delivered_at": "2026-03-06T18:59:00+00:00",
+    "items": [
+      {
+        "sku": "QC-SNACKS-NUTLA-ROASTED-AL-500",
+        "quantity": 3,
+        "unit_price_inr": 538.2
+      },
+      {
+        "sku": "QC-BEVERA-HYDRA-ELECTROLYT-250",
+        "quantity": 3,
+        "unit_price_inr": 281.3
+      }
+    ],
+    "order_total_inr": 2458.5,
+    "payment_mode": "CARD",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240259",
+    "store_id": "DS-DEL-002",
+    "customer_pincode": "110085",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-07T02:50:00+00:00",
+    "promised_eta_minutes": 12,
+    "delivered_at": "2026-03-07T03:10:00+00:00",
+    "items": [
+      {
+        "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-10",
+        "quantity": 2,
+        "unit_price_inr": 413.6
+      },
+      {
+        "sku": "QC-BEVERA-FIZZK-LEMON-SODA-250",
+        "quantity": 2,
+        "unit_price_inr": 23.75
+      }
+    ],
+    "order_total_inr": 874.7,
+    "payment_mode": "WALLET",
+    "substitution_applied": true
+  },
+  {
+    "order_id": "QC240266",
+    "store_id": "DS-BLR-002",
+    "customer_pincode": "560034",
+    "status": "RETURN_REQUESTED",
+    "placed_at": "2026-03-08T05:31:00+00:00",
+    "promised_eta_minutes": 25,
+    "delivered_at": "2026-03-08T05:58:00+00:00",
+    "items": [
+      {
+        "sku": "QC-BEVERA-HYDRA-ELECTROLYT-250",
+        "quantity": 1,
+        "unit_price_inr": 281.3
+      }
+    ],
+    "order_total_inr": 281.3,
+    "payment_mode": "WALLET",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240273",
+    "store_id": "DS-MUM-002",
+    "customer_pincode": "400072",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-06T19:07:00+00:00",
+    "promised_eta_minutes": 25,
+    "delivered_at": "2026-03-06T19:35:00+00:00",
+    "items": [
+      {
+        "sku": "QC-DAIRY--NANDH-FULL-CREAM-500",
+        "quantity": 1,
+        "unit_price_inr": 33.0
+      }
+    ],
+    "order_total_inr": 33.0,
+    "payment_mode": "WALLET",
+    "substitution_applied": false
+  },
+  {
+    "order_id": "QC240280",
+    "store_id": "DS-MUM-002",
+    "customer_pincode": "400072",
+    "status": "DELIVERED",
+    "placed_at": "2026-03-05T16:18:00+00:00",
+    "promised_eta_minutes": 20,
+    "delivered_at": "2026-03-05T16:39:00+00:00",
+    "items": [
+      {
+        "sku": "QC-BEVERA-FIZZK-LEMON-SODA-750",
+        "quantity": 2,
+        "unit_price_inr": 57.2
+      },
+      {
+        "sku": "QC-BEVERA-HYDRA-ELECTROLYT-100",
+        "quantity": 1,
+        "unit_price_inr": 130.0
+      },
+      {
+        "sku": "QC-DAIRY--NANDH-CURD-1000",
+        "quantity": 1,
+        "unit_price_inr": 69.7
+      },
+      {
+        "sku": "QC-FRUITS-GREEN-BABY-SPINA-100",
+        "quantity": 3,
+        "unit_price_inr": 22.0
+      },
+      {
+        "sku": "QC-FROZEN-FROST-MIXED-VEGE-1000",
+        "quantity": 2,
+        "unit_price_inr": 151.8
+      }
+    ],
+    "order_total_inr": 683.7,
+    "payment_mode": "COD",
+    "substitution_applied": true
+  }
+]

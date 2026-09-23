@@ -1,0 +1,32 @@
+{
+  "baseline": {
+    "mode": "retrieval",
+    "answer_chain": "groq:openai/gpt-oss-20b,groq:openai/gpt-oss-120b,openrouter:nvidia/nemotron-3.5-lightning:free,openrouter:nvidia/nemotron-3-super-120b-a12b:free,gemini:gemini-3.1-flash-lite,gemini:gemini-flash-lite-latest,gemini:gemini-3.5-flash-lite",
+    "queries_measured": 30,
+    "latency_ms": {
+      "p50": 6445.5,
+      "p95": 9372.6,
+      "mean": 5251.5,
+      "max": 12160.9
+    },
+    "tokens_per_query": 974.6,
+    "cost_per_1k_queries_usd": 0.1317,
+    "source_report": "baseline",
+    "recorded_at": "2026-09-09T11:22:45.650515+00:00"
+  },
+  "agentic_guarded": {
+    "mode": "agentic",
+    "answer_chain": "groq:openai/gpt-oss-20b,groq:openai/gpt-oss-120b,openrouter:nvidia/nemotron-3.5-lightning:free,openrouter:nvidia/nemotron-3-super-120b-a12b:free,gemini:gemini-3.1-flash-lite,gemini:gemini-flash-lite-latest,gemini:gemini-3.5-flash-lite",
+    "queries_measured": 60,
+    "latency_ms": {
+      "p50": 7396.6,
+      "p95": 61730.6,
+      "mean": 13250.8,
+      "max": 72888.5
+    },
+    "tokens_per_query": 3691.3,
+    "cost_per_1k_queries_usd": 0.3715,
+    "source_report": "agentic_guarded",
+    "recorded_at": "2026-09-13T14:29:09.602589+00:00"
+  }
+}

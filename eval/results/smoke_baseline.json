@@ -1,0 +1,377 @@
+{
+  "label": "smoke_baseline",
+  "created_at": "2026-09-09T11:31:42.166780+00:00",
+  "app_version": "0.1.0",
+  "config": {
+    "mode": "agentic",
+    "answer_chain": "groq:openai/gpt-oss-20b,groq:openai/gpt-oss-120b,openrouter:nvidia/nemotron-3.5-lightning:free,openrouter:nvidia/nemotron-3-super-120b-a12b:free,gemini:gemini-3.1-flash-lite,gemini:gemini-flash-lite-latest,gemini:gemini-3.5-flash-lite",
+    "reflect_chain": "gemini:gemini-3.1-flash-lite,gemini:gemini-flash-lite-latest,gemini:gemini-3.5-flash-lite,openrouter:nvidia/nemotron-3-super-120b-a12b:free,groq:openai/gpt-oss-120b,groq:openai/gpt-oss-20b",
+    "judge_chain": "gemini:gemini-3.5-flash-lite,gemini:gemini-3.1-flash-lite,gemini:gemini-flash-lite-latest,gemini:gemini-3.5-flash,gemini:gemini-3.7-flash,gemini:gemini-3.8-flash,groq:openai/gpt-oss-120b,groq:openai/gpt-oss-20b,openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "retrieval_top_k": 5,
+    "chunk_tokens": 220,
+    "chunk_overlap_tokens": 40
+  },
+  "dataset": {
+    "rows": 10,
+    "knowledge_base_rows": 8,
+    "tool_rows": 2,
+    "collection_errors": 0,
+    "answer_models": {
+      "groq:openai/gpt-oss-20b": 10,
+      "reflect=gemini:gemini-3.1-flash-lite": 10
+    }
+  },
+  "knowledge_base": {
+    "ragas": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8503,
+      "context_precision": 0.9375,
+      "context_recall": 1.0
+    },
+    "judges": {
+      "faithfulness": {
+        "gemini:gemini-3.5-flash-lite": 8
+      },
+      "context_precision": {
+        "gemini:gemini-3.5-flash-lite": 8
+      },
+      "context_recall": {
+        "gemini:gemini-3.5-flash-lite": 8
+      },
+      "answer_relevancy": {
+        "gemini:gemini-3.5-flash-lite": 8
+      }
+    },
+    "hallucination": {
+      "scored_answers": 8,
+      "hallucination_rate": 0.0,
+      "hallucinated_row_ids": [],
+      "faithfulness_threshold": 0.5
+    },
+    "citations": {
+      "committed_answers": 8,
+      "citation_coverage": 1.0,
+      "uncited_answer_rate": 0.0
+    },
+    "refusals": {
+      "refusal_rate": 0.0,
+      "correct_refusal_rate_on_tool_rows": 0.0,
+      "wrong_refusal_rate_on_kb_rows": 0.0
+    },
+    "retrieval": {
+      "expected_doc_hit_rate": 1.0
+    }
+  },
+  "tool_rows": {
+    "rows": 2,
+    "succeeded": 2,
+    "tool_call_success_rate": 1.0,
+    "refused": 0,
+    "answered_without_tool": 0,
+    "failed_row_ids": [],
+    "by_answer_model": {
+      "groq:openai/gpt-oss-20b": {
+        "rows": 2,
+        "succeeded": 2
+      }
+    }
+  },
+  "latency": {
+    "p50_ms": 10920.6,
+    "p95_ms": 21452.1,
+    "max_ms": 21452.1,
+    "mean_ms": 10480.8
+  },
+  "cost": {
+    "queries_measured": 10,
+    "total_tokens": 33233,
+    "mean_prompt_tokens": 3171.9,
+    "mean_completion_tokens": 151.4,
+    "total_cost_usd": 0.003104,
+    "cost_per_1k_queries_usd": 0.3104
+  },
+  "elapsed_seconds": 529.7,
+  "per_row": [
+    {
+      "row_id": "ret-01",
+      "category": "returns",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-returns",
+        "policy-returns",
+        "policy-returns",
+        "policy-store-ops",
+        "product-QC-DAIRY--NANDH-FULL-CREAM-1000"
+      ],
+      "tool_calls": [],
+      "total_ms": 3239.3,
+      "total_tokens": 3102,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9628429032880884,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Customers must report a problem with a dairy item within **2 hours** of delivery. [1]",
+      "error": null
+    },
+    {
+      "row_id": "del-01",
+      "category": "delivery",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery",
+        "policy-substitutions",
+        "policy-substitutions"
+      ],
+      "tool_calls": [],
+      "total_ms": 3446.2,
+      "total_tokens": 2858,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9546600578463037,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The promised ETA is composed of three components: pick and pack time, rider assignment time, and travel time from the dark store to the delivery pincode. [1]",
+      "error": null
+    },
+    {
+      "row_id": "del-02",
+      "category": "delivery",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery",
+        "policy-store-ops",
+        "store-DS-MUM-002"
+      ],
+      "tool_calls": [],
+      "total_ms": 10947.1,
+      "total_tokens": 3057,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9743985618020127,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      },
+      "answer": "The maximum promised ETA for any serviceable pincode is **30 minutes**[2].",
+      "error": null
+    },
+    {
+      "row_id": "sub-01",
+      "category": "substitutions",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions"
+      ],
+      "tool_calls": [],
+      "total_ms": 2316.1,
+      "total_tokens": 2754,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.30391137302601723,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The customer is notified and has 90\u202fseconds to accept or reject before the order is packed without the item and the line is refunded. [1]",
+      "error": null
+    },
+    {
+      "row_id": "sub-03",
+      "category": "substitutions",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions"
+      ],
+      "tool_calls": [],
+      "total_ms": 3974.2,
+      "total_tokens": 2865,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7165357433420265,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "A substitute must be priced within **15\u202fpercent** of the original line price. [1]",
+      "error": null
+    },
+    {
+      "row_id": "ops-01",
+      "category": "store_ops",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-store-ops",
+        "policy-store-ops",
+        "product-QC-FROZEN-FROST-ALOO-TIKKI-400",
+        "product-QC-FROZEN-FROST-MIXED-VEGE-1000",
+        "store-DS-DEL-001"
+      ],
+      "tool_calls": [],
+      "total_ms": 10894.1,
+      "total_tokens": 3214,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8978879807430348,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Chilled items must be held between **2 and 6\u202fdegrees Celsius** in a dark store. [1]",
+      "error": null
+    },
+    {
+      "row_id": "cat-01",
+      "category": "product",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "product-QC-DAIRY--NANDH-PANEER-400",
+        "product-QC-DAIRY--NANDH-PANEER-200",
+        "product-QC-DAIRY--NANDH-CURD-400",
+        "product-QC-DAIRY--NANDH-CURD-1000",
+        "product-QC-DAIRY--NANDH-FULL-CREAM-1000"
+      ],
+      "tool_calls": [],
+      "total_ms": 14252.5,
+      "total_tokens": 3608,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9924844233466764,
+        "context_precision": 0.49999999995,
+        "context_recall": 1.0
+      },
+      "answer": "The selling price of Nandhini Fresh Paneer 200\u202fg is INR\u202f83.60. [2]",
+      "error": null
+    },
+    {
+      "row_id": "store-01",
+      "category": "dark_store",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "store-DS-DEL-001",
+        "policy-delivery",
+        "store-DS-BLR-001",
+        "store-DS-MUM-002",
+        "store-DS-BLR-002"
+      ],
+      "tool_calls": [],
+      "total_ms": 13617.1,
+      "total_tokens": 3120,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999994,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The Saket Dark Store serves the pincodes 110017, 110019, and 110048. [1]",
+      "error": null
+    },
+    {
+      "row_id": "live-01",
+      "category": "live_ops",
+      "requires_tool": true,
+      "expected_tool": "get_inventory",
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [],
+      "tool_calls": [
+        {
+          "name": "search_catalog",
+          "arguments": {
+            "limit": 1,
+            "query": "Nandhini Fresh Paneer 200 g"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 107.82329100766219
+        },
+        {
+          "name": "get_inventory",
+          "arguments": {
+            "dark_store": "DS-BLR-001",
+            "sku": "QC-DAIRY--NANDH-PANEER-200"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 13.449582998873666
+        }
+      ],
+      "total_ms": 20669.2,
+      "total_tokens": 4279,
+      "scores": {},
+      "answer": "35 units are currently available at the Indiranagar Dark Store. [2]",
+      "error": null
+    },
+    {
+      "row_id": "live-02",
+      "category": "live_ops",
+      "requires_tool": true,
+      "expected_tool": "get_inventory",
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [],
+      "tool_calls": [
+        {
+          "name": "search_catalog",
+          "arguments": {
+            "limit": 1,
+            "query": "Amulya Gold Salted Butter 500 g"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 16.712917014956474
+        },
+        {
+          "name": "get_inventory",
+          "arguments": {
+            "dark_store": "DS-BLR-001",
+            "sku": "QC-DAIRY--AMULY-SALTED-BUT-500"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 9.22804098809138
+        }
+      ],
+      "total_ms": 21452.1,
+      "total_tokens": 4376,
+      "scores": {},
+      "answer": "It has 0 on\u2011hand, 0 reserved and 0 available units, and is marked as out of stock [2].",
+      "error": null
+    }
+  ]
+}

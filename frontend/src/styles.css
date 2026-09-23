@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Palette: graphite surfaces with an amber signal for citations and actions, and a cool
+   cyan for live tool activity. Chosen to read like an operations console, not a chat toy. */
+@theme {
+  --color-ink-950: #0b0f14;
+  --color-ink-900: #111820;
+  --color-ink-800: #18222d;
+  --color-ink-700: #1f2a35;
+  --color-ink-600: #2c3a48;
+  --color-ink-400: #6b7a8a;
+  --color-ink-300: #8b98a5;
+  --color-ink-100: #d5dde5;
+  --color-ink-50: #e6edf3;
+  --color-paper-50: #f6f7f9;
+  --color-paper-100: #eceff3;
+  --color-paper-200: #dfe3e8;
+  --color-signal-500: #f5a623;
+  --color-signal-600: #d98c0a;
+  --color-tool-500: #38bdf8;
+  --color-ok-500: #3ecf8e;
+  --color-warn-500: #f97066;
+  --font-sans: ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+:root {
+  color-scheme: light;
+  --bg: var(--color-paper-50);
+  --surface: #ffffff;
+  --surface-2: var(--color-paper-100);
+  --line: var(--color-paper-200);
+  --text: #111820;
+  --muted: #5b6675;
+}
+
+.dark {
+  color-scheme: dark;
+  --bg: var(--color-ink-950);
+  --surface: var(--color-ink-900);
+  --surface-2: var(--color-ink-800);
+  --line: var(--color-ink-700);
+  --text: var(--color-ink-50);
+  --muted: var(--color-ink-300);
+}
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.surface { background: var(--surface); border: 1px solid var(--line); }
+.surface-2 { background: var(--surface-2); }
+.hairline { border-color: var(--line); }
+.muted { color: var(--muted); }
+
+:focus-visible {
+  outline: 2px solid var(--color-signal-500);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Markdown inside answers */
+.prose-answer p { margin: 0 0 0.6rem; }
+.prose-answer p:last-child { margin-bottom: 0; }
+.prose-answer ul, .prose-answer ol { margin: 0.25rem 0 0.6rem 1.2rem; padding: 0; }
+.prose-answer li { margin: 0.15rem 0; }
+.prose-answer strong { font-weight: 600; }
+.prose-answer code { font-family: var(--font-mono); font-size: 0.85em; background: var(--surface-2); padding: 0 0.3em; border-radius: 3px; }
+.prose-answer table { border-collapse: collapse; font-size: 0.9em; margin: 0.4rem 0; }
+.prose-answer th, .prose-answer td { border: 1px solid var(--line); padding: 0.25rem 0.5rem; text-align: left; }
+
+.cite {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 1.35rem; height: 1.2rem; padding: 0 0.3rem; margin: 0 0.1rem;
+  border-radius: 3px; font: 600 0.72rem var(--font-mono);
+  color: var(--color-ink-950); background: var(--color-signal-500);
+  vertical-align: baseline; cursor: pointer; border: 0;
+}
+.cite[data-active="true"] { background: var(--color-signal-600); outline: 2px solid var(--color-signal-500); outline-offset: 1px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}

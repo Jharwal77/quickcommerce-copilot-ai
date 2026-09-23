@@ -1,0 +1,24 @@
+# Render Blueprint: one free Docker web service built from this repository.
+# Provider API keys are added in the Render dashboard (sync: false keeps them out of
+# this file). The free instance has 512 MB of memory, which the image fits with the
+# allocator and thread caps set in the Dockerfile.
+services:
+  - type: web
+    name: quickcommerce-copilot
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: AGENT_MODE
+        value: agentic
+      - key: TOOL_CALL_CAP
+        value: "3"

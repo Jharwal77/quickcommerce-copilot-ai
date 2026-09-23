@@ -1,0 +1,1742 @@
+{
+  "label": "agentic_guarded",
+  "created_at": "2026-09-12T15:32:03.825693+00:00",
+  "app_version": "0.1.0",
+  "config": {
+    "mode": "agentic",
+    "answer_chain": "groq:openai/gpt-oss-20b,groq:openai/gpt-oss-120b,openrouter:nvidia/nemotron-3.5-lightning:free,openrouter:nvidia/nemotron-3-super-120b-a12b:free,gemini:gemini-3.1-flash-lite,gemini:gemini-flash-lite-latest,gemini:gemini-3.5-flash-lite",
+    "reflect_chain": "gemini:gemini-3.1-flash-lite,gemini:gemini-flash-lite-latest,gemini:gemini-3.5-flash-lite,openrouter:nvidia/nemotron-3-super-120b-a12b:free,groq:openai/gpt-oss-120b,groq:openai/gpt-oss-20b",
+    "judge_chain": "gemini:gemini-3.5-flash-lite,gemini:gemini-3.1-flash-lite,gemini:gemini-flash-lite-latest,gemini:gemini-3.5-flash,gemini:gemini-3.7-flash,gemini:gemini-3.8-flash,groq:openai/gpt-oss-120b,groq:openai/gpt-oss-20b,openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "retrieval_top_k": 5,
+    "chunk_tokens": 220,
+    "chunk_overlap_tokens": 40
+  },
+  "dataset": {
+    "rows": 60,
+    "knowledge_base_rows": 50,
+    "tool_rows": 10,
+    "collection_errors": 0,
+    "answer_models": {
+      "groq:openai/gpt-oss-120b": 37,
+      "groq:openai/gpt-oss-20b": 19,
+      "openrouter:nvidia/nemotron-3.5-lightning:free": 13,
+      "reflect=gemini:gemini-3.1-flash-lite": 16,
+      "reflect=groq:openai/gpt-oss-120b": 16,
+      "reflect=groq:openai/gpt-oss-20b": 2,
+      "reflect=openrouter:nvidia/nemotron-3-super-120b-a12b:free": 25
+    }
+  },
+  "knowledge_base": {
+    "ragas": {
+      "faithfulness": 0.9533,
+      "answer_relevancy": 0.7856,
+      "context_precision": 0.888,
+      "context_recall": 0.98
+    },
+    "judges": {
+      "faithfulness": {
+        "groq:openai/gpt-oss-20b": 2,
+        "gemini:gemini-3.5-flash-lite": 43,
+        "gemini:gemini-3.1-flash-lite": 4
+      },
+      "context_precision": {
+        "gemini:gemini-3.5-flash-lite": 45,
+        "gemini:gemini-3.1-flash-lite": 4
+      },
+      "context_recall": {
+        "gemini:gemini-3.5-flash-lite": 44,
+        "gemini:gemini-3.1-flash-lite": 5
+      },
+      "answer_relevancy": {
+        "gemini:gemini-3.5-flash-lite": 46,
+        "gemini:gemini-3.1-flash-lite": 4
+      }
+    },
+    "hallucination": {
+      "scored_answers": 49,
+      "hallucination_rate": 0.0,
+      "hallucinated_row_ids": [],
+      "faithfulness_threshold": 0.5
+    },
+    "citations": {
+      "committed_answers": 49,
+      "citation_coverage": 1.0,
+      "uncited_answer_rate": 0.0
+    },
+    "refusals": {
+      "refusal_rate": 0.02,
+      "correct_refusal_rate_on_tool_rows": 0.0,
+      "wrong_refusal_rate_on_kb_rows": 0.02
+    },
+    "retrieval": {
+      "expected_doc_hit_rate": 0.98
+    }
+  },
+  "tool_rows": {
+    "rows": 10,
+    "succeeded": 10,
+    "tool_call_success_rate": 1.0,
+    "refused": 0,
+    "answered_without_tool": 0,
+    "failed_row_ids": [],
+    "by_answer_model": {
+      "groq:openai/gpt-oss-20b": {
+        "rows": 3,
+        "succeeded": 3
+      },
+      "groq:openai/gpt-oss-120b": {
+        "rows": 7,
+        "succeeded": 7
+      }
+    }
+  },
+  "latency": {
+    "p50_ms": 7396.6,
+    "p95_ms": 61730.6,
+    "max_ms": 72888.5,
+    "mean_ms": 13250.8
+  },
+  "cost": {
+    "queries_measured": 60,
+    "total_tokens": 221478,
+    "mean_prompt_tokens": 3348.2,
+    "mean_completion_tokens": 343.1,
+    "total_cost_usd": 0.02229,
+    "cost_per_1k_queries_usd": 0.3715
+  },
+  "elapsed_seconds": 392.3,
+  "per_row": [
+    {
+      "row_id": "ret-01",
+      "category": "returns",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-returns",
+        "policy-returns",
+        "policy-returns",
+        "policy-store-ops",
+        "product-QC-DAIRY--NANDH-FULL-CREAM-1000"
+      ],
+      "tool_calls": [],
+      "total_ms": 4744.9,
+      "total_tokens": 3300,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9655690236322529,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Customers must report a problem with a dairy item within **2 hours** of delivery. [1]",
+      "error": null
+    },
+    {
+      "row_id": "ret-02",
+      "category": "returns",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-store-ops",
+        "policy-returns",
+        "policy-returns",
+        "policy-store-ops",
+        "product-QC-FROZEN-FROST-ALOO-TIKKI-400"
+      ],
+      "tool_calls": [],
+      "total_ms": 66909.7,
+      "total_tokens": 3482,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9618274814567513,
+        "context_precision": 0.3333333333,
+        "context_recall": 1.0
+      },
+      "answer": "The return window for frozen items (including frozen\u202f&\u202fready\u2011to\u2011eat products) is **4\u202fhours from delivery**, and the item must be returned with the **cold\u2011chain seal intact**[3].",
+      "error": null
+    },
+    {
+      "row_id": "ret-03",
+      "category": "returns",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-returns",
+        "policy-returns",
+        "policy-substitutions",
+        "policy-returns",
+        "policy-returns"
+      ],
+      "tool_calls": [],
+      "total_ms": 8636.6,
+      "total_tokens": 3133,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8373142944315012,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The return window for Personal Care products is **7\u202fdays** from delivery, provided the product\u2019s seal is unbroken[1].",
+      "error": null
+    },
+    {
+      "row_id": "ret-04",
+      "category": "returns",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-returns",
+        "policy-delivery",
+        "policy-returns",
+        "policy-returns",
+        "policy-returns"
+      ],
+      "tool_calls": [],
+      "total_ms": 2021.6,
+      "total_tokens": 3036,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.853771794095127,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The refund will be credited to the customer\u2019s UPI account within **24\u202fhours** of approval[1].",
+      "error": null
+    },
+    {
+      "row_id": "ret-05",
+      "category": "returns",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-returns",
+        "policy-delivery",
+        "policy-returns",
+        "policy-returns",
+        "policy-returns"
+      ],
+      "tool_calls": [],
+      "total_ms": 2987.7,
+      "total_tokens": 3315,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8430890702923044,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Card refunds are credited to the original payment instrument within **5 to 7 business days** of approval, subject to the issuing bank\u202f[1].",
+      "error": null
+    },
+    {
+      "row_id": "ret-06",
+      "category": "returns",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-returns",
+        "policy-returns",
+        "policy-returns",
+        "policy-returns",
+        "policy-returns"
+      ],
+      "tool_calls": [],
+      "total_ms": 17400.6,
+      "total_tokens": 3415,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.569587549202086,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Refunds of **under INR\u202f200** are auto\u2011approved without any agent review; refunds of **INR\u202f200 or more** require a support agent\u2019s approval. [1]",
+      "error": null
+    },
+    {
+      "row_id": "ret-07",
+      "category": "returns",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-returns",
+        "policy-returns",
+        "policy-returns",
+        "policy-returns",
+        "policy-returns"
+      ],
+      "tool_calls": [],
+      "total_ms": 5355.6,
+      "total_tokens": 3494,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.32562592176245136,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "- Items where more than **30\u202fpercent** of the pack has been consumed. [1]",
+      "error": null
+    },
+    {
+      "row_id": "ret-08",
+      "category": "returns",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-returns",
+        "policy-returns",
+        "policy-returns",
+        "policy-returns",
+        "policy-store-ops"
+      ],
+      "tool_calls": [],
+      "total_ms": 24081.8,
+      "total_tokens": 3264,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8378099155969716,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "A customer account may raise at most **4 approved perishable claims** in a rolling 30\u2011day window[1].",
+      "error": null
+    },
+    {
+      "row_id": "ret-09",
+      "category": "returns",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-returns",
+        "policy-returns",
+        "policy-returns",
+        "policy-delivery",
+        "policy-returns"
+      ],
+      "tool_calls": [],
+      "total_ms": 13063.0,
+      "total_tokens": 3506,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6279994507678014,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Cash\u2011on\u2011delivery refunds are credited to the customer\u2019s Nimbus\u202fWallet within\u202f24\u202fhours, or to a bank account within\u202f3\u202fbusiness\u202fdays if the customer provides account details[1].",
+      "error": null
+    },
+    {
+      "row_id": "ret-10",
+      "category": "returns",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-returns",
+        "policy-returns",
+        "product-QC-HOME---SHINE-FLOOR-CLEA-1000",
+        "policy-returns",
+        "product-QC-FRUITS-GREEN-CHERRY-TOM-400"
+      ],
+      "tool_calls": [],
+      "total_ms": 2930.1,
+      "total_tokens": 3513,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9345559992868494,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "When a customer reports a missing item, a photograph is **not** required\u202f[1].",
+      "error": null
+    },
+    {
+      "row_id": "del-01",
+      "category": "delivery",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery",
+        "policy-substitutions",
+        "policy-substitutions"
+      ],
+      "tool_calls": [],
+      "total_ms": 14856.3,
+      "total_tokens": 3297,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.302795275826683,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Pick\u2011and\u2011pack time at the fulfilling dark store (average\u202f3\u20137\u202fminutes)[1]\nRider\u2011assignment time (normally\u202funder\u202f2\u202fminutes)[1]\nTravel time from the dark store to the delivery pincode[1]",
+      "error": null
+    },
+    {
+      "row_id": "del-02",
+      "category": "delivery",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery",
+        "policy-store-ops",
+        "store-DS-MUM-002"
+      ],
+      "tool_calls": [],
+      "total_ms": 14389.0,
+      "total_tokens": 3236,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9374833328428677,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      },
+      "answer": "The promised ETA for any serviceable pincode is capped at **30\u202fminutes**[2].",
+      "error": null
+    },
+    {
+      "row_id": "del-03",
+      "category": "delivery",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery"
+      ],
+      "tool_calls": [],
+      "total_ms": 2453.6,
+      "total_tokens": 3073,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8371007402198845,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The delivery fee is waived for orders **of INR\u202f199 and above**[1].",
+      "error": null
+    },
+    {
+      "row_id": "del-04",
+      "category": "delivery",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery",
+        "product-QC-STAPLE-ANNAP-TOOR-DAL-1000",
+        "product-QC-STAPLE-ANNAP-TOOR-DAL-500"
+      ],
+      "tool_calls": [],
+      "total_ms": 7679.0,
+      "total_tokens": 3562,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9833108667837166,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Orders below INR\u202f199 incur a flat delivery fee of INR\u202f25[1].",
+      "error": null
+    },
+    {
+      "row_id": "del-05",
+      "category": "delivery",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-delivery",
+        "policy-delivery",
+        "product-QC-FROZEN-FROST-ALOO-TIKKI-400",
+        "policy-store-ops",
+        "product-QC-FROZEN-FROST-MIXED-VEGE-1000"
+      ],
+      "tool_calls": [],
+      "total_ms": 13570.4,
+      "total_tokens": 3973,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.972547159057031,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The extra fee for an order that contains a frozen item is a **handling fee of INR\u202f10** (see [1]).",
+      "error": null
+    },
+    {
+      "row_id": "del-06",
+      "category": "delivery",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery",
+        "policy-store-ops",
+        "product-QC-BABY-C-TINYT-BABY-LOTIO-100"
+      ],
+      "tool_calls": [],
+      "total_ms": 61730.6,
+      "total_tokens": 4849,
+      "scores": {
+        "faithfulness": 0.75,
+        "answer_relevancy": 0.4307512525409783,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "This fee is **in addition to** the regular delivery fee (INR\u202f25 for orders under\u202fINR\u202f199) and any possible rain or peak\u2011surge surcharge (up to\u202fINR\u202f35). [1]",
+      "error": null
+    },
+    {
+      "row_id": "del-07",
+      "category": "delivery",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-delivery",
+        "policy-returns",
+        "policy-delivery",
+        "policy-delivery",
+        "store-DS-MUM-001"
+      ],
+      "tool_calls": [],
+      "total_ms": 10027.3,
+      "total_tokens": 4218,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The maximum surge fee that can be added during rain or peak hours is **INR\u202f35** (shown before payment). [1]",
+      "error": null
+    },
+    {
+      "row_id": "del-08",
+      "category": "delivery",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery"
+      ],
+      "tool_calls": [],
+      "total_ms": 72888.5,
+      "total_tokens": 5009,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.1819582573008008,
+        "context_precision": 0.49999999995,
+        "context_recall": 1.0
+      },
+      "answer": "[2] Delivery, ETA, and Fees Policy \u2013 Late delivery remedy.",
+      "error": null
+    },
+    {
+      "row_id": "del-09",
+      "category": "delivery",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery",
+        "policy-substitutions",
+        "policy-delivery"
+      ],
+      "tool_calls": [],
+      "total_ms": 21798.0,
+      "total_tokens": 4374,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8093464746820253,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "A rider waits at the delivery address for **up to\u202f5\u202fminutes**[1].\nAny perishable items from an undelivered order are **written off and not restocked**[1].",
+      "error": null
+    },
+    {
+      "row_id": "del-10",
+      "category": "delivery",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery",
+        "policy-delivery",
+        "policy-store-ops",
+        "policy-delivery",
+        "policy-delivery"
+      ],
+      "tool_calls": [],
+      "total_ms": 13380.1,
+      "total_tokens": 6736,
+      "scores": {
+        "faithfulness": 0.6666666666666666,
+        "answer_relevancy": 0.6463359050860302,
+        "context_precision": 0.16666666665,
+        "context_recall": 1.0
+      },
+      "answer": "Nimbus\u202fNow only offers on\u2011demand deliveries; scheduled or later\u2011in\u2011the\u2011day deliveries are not available. [6]",
+      "error": null
+    },
+    {
+      "row_id": "del-11",
+      "category": "delivery",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": true,
+      "citation_count": 0,
+      "retrieved_doc_ids": [],
+      "tool_calls": [],
+      "total_ms": 68220.3,
+      "total_tokens": 1239,
+      "scores": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      "answer": "I don't have that in the knowledge base.",
+      "error": null
+    },
+    {
+      "row_id": "sub-01",
+      "category": "substitutions",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions"
+      ],
+      "tool_calls": [],
+      "total_ms": 9485.6,
+      "total_tokens": 3958,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7998884790126718,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "A substitution is offered **only when an ordered item is unavailable at the fulfilling dark store after the order has been accepted** ([1]).",
+      "error": null
+    },
+    {
+      "row_id": "sub-03",
+      "category": "substitutions",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "product-QC-SNACKS-NUTLA-TRAIL-MIX-200"
+      ],
+      "tool_calls": [],
+      "total_ms": 18501.2,
+      "total_tokens": 4213,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.4703410543054522,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "If the substitute is more expensive, Nimbus\u202fNow absorbs the difference; if it is cheaper, the price difference is refunded to the customer. [1]",
+      "error": null
+    },
+    {
+      "row_id": "sub-04",
+      "category": "substitutions",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-returns",
+        "product-QC-SNACKS-NUTLA-TRAIL-MIX-400"
+      ],
+      "tool_calls": [],
+      "total_ms": 4358.2,
+      "total_tokens": 4123,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9374940669233904,
+        "context_precision": 0.699999999965,
+        "context_recall": 1.0
+      },
+      "answer": "According to the Substitutions Policy, a vegetarian item is **never** substituted with a non\u2011vegetarian item under any circumstance. [1]",
+      "error": null
+    },
+    {
+      "row_id": "sub-05",
+      "category": "substitutions",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "product-QC-BAKERY-OVENL-MULTIGRAIN-400",
+        "product-QC-FRUITS-GREEN-CHERRY-TOM-400"
+      ],
+      "tool_calls": [],
+      "total_ms": 15049.9,
+      "total_tokens": 4935,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.11597357888744786,
+        "context_precision": 0.49999999995,
+        "context_recall": 1.0
+      },
+      "answer": "The exclusion exists because caregiver brand and formulation preferences in Baby Care are not interchangeable.\u201d\u202f[2]",
+      "error": null
+    },
+    {
+      "row_id": "sub-06",
+      "category": "substitutions",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 3,
+      "retrieved_doc_ids": [
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions"
+      ],
+      "tool_calls": [],
+      "total_ms": 20689.9,
+      "total_tokens": 4866,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9436793155425924,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Personal\u2011Care substitutions are governed by the following restrictions (all drawn from the Substitutions Policy):\n- **Brand\u2011only substitution:** Personal\u2011Care items may be substituted **only** across pack sizes of the **identical product**, never across different brands[1].\n- **Same\u2011product, same\u2011brand rule:** An acceptable substitute must be the same product and same brand, differing only in pack size, **or** the same product from a different brand **within the same category**[3].\n- **Price ceiling:** The substitute\u2019s price must be within\u202f15\u202f% of the original line price; any excess is absorbed by Nimbus Now and the customer is never charged more[3].\n- **Dietary\u2011attribute match:** A vegetarian Personal\u2011Care item can never be swapped for a non\u2011vegetarian one under any circumstance[3].\n- **Storage\u2011class match:** A chilled Personal\u2011Care item cannot be replaced with an ambient\u2011class item[3].\n- **Customer consent:** A substitution is never applied silently; the customer receives a notification and has **90\u202fseconds** to accept or reject it before the line is refunded[2].",
+      "error": null
+    },
+    {
+      "row_id": "sub-07",
+      "category": "substitutions",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions"
+      ],
+      "tool_calls": [],
+      "total_ms": 14742.3,
+      "total_tokens": 3835,
+      "scores": {
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.47917665843606355,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "If that out\u2011of\u2011stock line represents **more than 60\u202fpercent of the order\u2019s value**, the customer is asked whether to cancel the entire order. [1]",
+      "error": null
+    },
+    {
+      "row_id": "sub-08",
+      "category": "substitutions",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-substitutions"
+      ],
+      "tool_calls": [],
+      "total_ms": 4204.0,
+      "total_tokens": 2998,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7901344092901755,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The operational targets are: a substitution rate below **6\u202fpercent** of order lines and an out\u2011of\u2011stock rate below **4\u202fpercent** per dark store per day. [1]",
+      "error": null
+    },
+    {
+      "row_id": "sub-09",
+      "category": "substitutions",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-store-ops",
+        "policy-substitutions",
+        "policy-store-ops",
+        "product-QC-FROZEN-FROST-ALOO-TIKKI-400",
+        "policy-substitutions"
+      ],
+      "tool_calls": [],
+      "total_ms": 1956.3,
+      "total_tokens": 3246,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7609051404800473,
+        "context_precision": 0.49999999995,
+        "context_recall": 1.0
+      },
+      "answer": "The substitution rules state that a chilled item must not be replaced by an ambient item. [2]",
+      "error": null
+    },
+    {
+      "row_id": "ops-01",
+      "category": "store_ops",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-store-ops",
+        "policy-store-ops",
+        "product-QC-FROZEN-FROST-ALOO-TIKKI-400",
+        "product-QC-FROZEN-FROST-MIXED-VEGE-1000",
+        "store-DS-DEL-001"
+      ],
+      "tool_calls": [],
+      "total_ms": 2870.9,
+      "total_tokens": 3211,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.872741567104434,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Chilled items must be held between **2 and 6\u202f\u00b0C** in a dark store. [1]",
+      "error": null
+    },
+    {
+      "row_id": "ops-02",
+      "category": "store_ops",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-store-ops",
+        "product-QC-FROZEN-FROST-ALOO-TIKKI-400",
+        "product-QC-FROZEN-FROST-MIXED-VEGE-1000",
+        "product-QC-FROZEN-FROST-MIXED-VEGE-500",
+        "product-QC-FROZEN-FROST-GREEN-PEAS-1000"
+      ],
+      "tool_calls": [],
+      "total_ms": 4737.5,
+      "total_tokens": 3432,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8572571081133095,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Frozen items are held at **minus\u202f18\u202f\u00b0C or colder** at the dark store\u202f[1].",
+      "error": null
+    },
+    {
+      "row_id": "ops-03",
+      "category": "store_ops",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-store-ops",
+        "policy-store-ops",
+        "product-QC-FROZEN-FROST-ALOO-TIKKI-400",
+        "product-QC-FROZEN-FROST-MIXED-VEGE-500",
+        "product-QC-FROZEN-FROST-MIXED-VEGE-1000"
+      ],
+      "tool_calls": [],
+      "total_ms": 4766.0,
+      "total_tokens": 3330,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7601322550768196,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "A chilled item left outside its temperature band for more than 20\u202fminutes must be written off and cannot be sold. [1]",
+      "error": null
+    },
+    {
+      "row_id": "ops-04",
+      "category": "store_ops",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-store-ops",
+        "policy-substitutions",
+        "policy-substitutions",
+        "policy-returns",
+        "policy-delivery"
+      ],
+      "tool_calls": [],
+      "total_ms": 1898.2,
+      "total_tokens": 2832,
+      "scores": {
+        "faithfulness": 0.75,
+        "answer_relevancy": 0.918259961097267,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Available units are calculated as **on\u2011hand units minus reserved units**\u202f\u2014\u202fthe units that are physically in the store but not already allocated to accepted orders\u202f[1]. An item is considered **out of stock** when its available units reach zero, even if there are still on\u2011hand units remaining\u202f[1].",
+      "error": null
+    },
+    {
+      "row_id": "ops-05",
+      "category": "store_ops",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-store-ops",
+        "policy-store-ops",
+        "policy-delivery",
+        "store-DS-DEL-002",
+        "store-DS-MUM-001"
+      ],
+      "tool_calls": [],
+      "total_ms": 7114.1,
+      "total_tokens": 3067,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9900531073165522,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Dark stores receive up to **two inbound trucks per day**[1].",
+      "error": null
+    },
+    {
+      "row_id": "ops-06",
+      "category": "store_ops",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-store-ops",
+        "product-QC-SNACKS-CRISP-SALTED-POT-52",
+        "policy-store-ops",
+        "product-QC-HOME---SHINE-FLOOR-CLEA-1000",
+        "product-QC-SNACKS-CRISP-SALTED-POT-90"
+      ],
+      "tool_calls": [],
+      "total_ms": 2993.2,
+      "total_tokens": 3321,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6323666225236362,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Each SKU is physically counted at least once every **14\u202fdays** as part of the rolling cycle\u2011count process[1].",
+      "error": null
+    },
+    {
+      "row_id": "ops-07",
+      "category": "store_ops",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 2,
+      "retrieved_doc_ids": [
+        "policy-store-ops",
+        "policy-returns",
+        "policy-returns",
+        "policy-delivery",
+        "policy-returns"
+      ],
+      "tool_calls": [],
+      "total_ms": 3699.3,
+      "total_tokens": 3326,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9166068149936043,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "An item receives the **Near Expiry** tag when it is within **20\u202fpercent of its remaining shelf life**[1].\n* It is **non\u2011returnable**; customers cannot claim a return or refund for Near Expiry items[2].",
+      "error": null
+    },
+    {
+      "row_id": "ops-08",
+      "category": "store_ops",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-store-ops",
+        "policy-returns",
+        "policy-returns",
+        "policy-substitutions",
+        "policy-delivery"
+      ],
+      "tool_calls": [],
+      "total_ms": 5517.8,
+      "total_tokens": 2856,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7864062168712702,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "A replenishment request is triggered when the **on\u2011hand units for a given store\u2011SKU fall to or below that SKU\u2019s reorder point**; the request is then placed on the next inbound truck slot\u202f[1].",
+      "error": null
+    },
+    {
+      "row_id": "cat-01",
+      "category": "product",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "product-QC-DAIRY--NANDH-PANEER-400",
+        "product-QC-DAIRY--NANDH-PANEER-200",
+        "product-QC-DAIRY--NANDH-CURD-400",
+        "product-QC-DAIRY--NANDH-CURD-1000",
+        "product-QC-DAIRY--NANDH-FULL-CREAM-1000"
+      ],
+      "tool_calls": [],
+      "total_ms": 4628.0,
+      "total_tokens": 3546,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9793480885578343,
+        "context_precision": 0.49999999995,
+        "context_recall": 1.0
+      },
+      "answer": "The current selling price of Nandhini Fresh Paneer\u202f200\u202fg is INR\u202f83.60[2].",
+      "error": null
+    },
+    {
+      "row_id": "cat-02",
+      "category": "product",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "product-QC-BEVERA-ZESTA-COLD-BREW--500",
+        "product-QC-BEVERA-ZESTA-COLD-BREW--200",
+        "product-QC-BEVERA-ZESTA-ORANGE-JUI-1000",
+        "product-QC-BEVERA-ZESTA-ORANGE-JUI-200",
+        "product-QC-BEVERA-HYDRA-ELECTROLYT-250"
+      ],
+      "tool_calls": [],
+      "total_ms": 4493.9,
+      "total_tokens": 3535,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.979357996144174,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The Zestara Cold Brew Coffee 500\u202fml requires a **chilled** storage class. [1]",
+      "error": null
+    },
+    {
+      "row_id": "cat-03",
+      "category": "product",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "product-QC-BAKERY-OVENL-MULTIGRAIN-400",
+        "product-QC-BAKERY-OVENL-WHOLE-WHEA-400",
+        "product-QC-BAKERY-OVENL-BUTTER-CRO-4",
+        "product-QC-BAKERY-OVENL-BUTTER-CRO-2",
+        "policy-store-ops"
+      ],
+      "tool_calls": [],
+      "total_ms": 1718.2,
+      "total_tokens": 3309,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The stated shelf life of Ovenly Multigrain Bread 400\u202fg is 4 days. [1]",
+      "error": null
+    },
+    {
+      "row_id": "cat-04",
+      "category": "product",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "product-QC-DAIRY--YOLKW-FARM-EGGS-6",
+        "product-QC-DAIRY--YOLKW-FARM-EGGS-12",
+        "product-QC-DAIRY--NANDH-CURD-400",
+        "product-QC-DAIRY--NANDH-CURD-1000",
+        "product-QC-DAIRY--NANDH-PANEER-400"
+      ],
+      "tool_calls": [],
+      "total_ms": 1945.2,
+      "total_tokens": 3555,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8256268522350424,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      },
+      "answer": "Yolkwell Farm Eggs\u202f12\u202fpieces are listed with the dietary attribute \u201cnon\u2011vegetarian\u201d[2].",
+      "error": null
+    },
+    {
+      "row_id": "cat-05",
+      "category": "product",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "product-QC-SNACKS-NUTLA-ROASTED-AL-500",
+        "product-QC-SNACKS-NUTLA-ROASTED-AL-200",
+        "product-QC-SNACKS-NUTLA-TRAIL-MIX-400",
+        "product-QC-SNACKS-NUTLA-TRAIL-MIX-200",
+        "product-QC-DAIRY--AMULY-SALTED-BUT-500"
+      ],
+      "tool_calls": [],
+      "total_ms": 4805.1,
+      "total_tokens": 3591,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9923990320975519,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      },
+      "answer": "Nutlane Roasted Almonds\u202f500\u202fg carries the dietary attributes **vegetarian** and **gluten\u2011free**[1].",
+      "error": null
+    },
+    {
+      "row_id": "cat-06",
+      "category": "product",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "product-QC-FROZEN-FROST-GREEN-PEAS-1000",
+        "product-QC-FROZEN-FROST-GREEN-PEAS-500",
+        "product-QC-FROZEN-FROST-MIXED-VEGE-1000",
+        "product-QC-FROZEN-FROST-MIXED-VEGE-500",
+        "product-QC-FROZEN-FROST-ALOO-TIKKI-400"
+      ],
+      "tool_calls": [],
+      "total_ms": 6947.5,
+      "total_tokens": 3656,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9573337358755625,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The listed substitute SKU for **Frostbite Green Peas Frozen\u202f1000\u202fg** is **QC-FROZEN-FROST-GREEN-PEAS-500**[1].",
+      "error": null
+    },
+    {
+      "row_id": "cat-07",
+      "category": "product",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 2,
+      "retrieved_doc_ids": [
+        "product-QC-BABY-C-TINYT-BABY-DIAPE-32",
+        "product-QC-BABY-C-TINYT-BABY-DIAPE-62",
+        "product-QC-BABY-C-TINYT-BABY-WIPES-72",
+        "product-QC-BABY-C-TINYT-BABY-WIPES-144",
+        "policy-substitutions"
+      ],
+      "tool_calls": [],
+      "total_ms": 16591.8,
+      "total_tokens": 3370,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999994,
+        "context_precision": 0.699999999965,
+        "context_recall": 1.0
+      },
+      "answer": "Tinytots\u202fBaby\u202fDiapers\u202fMedium\u202f32\u202fpieces cannot be substituted; the product is excluded from substitution according to the policy for Baby Care items[1][5].",
+      "error": null
+    },
+    {
+      "row_id": "cat-08",
+      "category": "product",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "product-QC-STAPLE-ANNAP-SONA-MASOO-10",
+        "product-QC-STAPLE-ANNAP-SONA-MASOO-5",
+        "product-QC-STAPLE-ANNAP-WHOLE-WHEA-10",
+        "product-QC-STAPLE-ANNAP-WHOLE-WHEA-5",
+        "product-QC-STAPLE-ANNAP-CHANA-DAL-1000"
+      ],
+      "tool_calls": [],
+      "total_ms": 17769.7,
+      "total_tokens": 3818,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9092497499036968,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The selling price for Annapurti\u202fSona\u202fMasoori\u202fRice\u202f10\u202fkg is INR\u202f668.80, and its maximum retail price (MRP) is INR\u202f760.00[1].",
+      "error": null
+    },
+    {
+      "row_id": "cat-09",
+      "category": "product",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "product-QC-FRUITS-FARML-ALPHONSO-M-1000",
+        "product-QC-FRUITS-FARML-BANANA-ROB-1000",
+        "product-QC-FRUITS-FARML-BANANA-ROB-500",
+        "product-QC-FROZEN-FROST-ALOO-TIKKI-400",
+        "policy-store-ops"
+      ],
+      "tool_calls": [],
+      "total_ms": 16989.2,
+      "total_tokens": 3411,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9478981150184876,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "Farmlyft Alphonso Mango\u202f1000\u202fg has a stated shelf life of **2\u202fdays** and is marked as **seasonal**[1].",
+      "error": null
+    },
+    {
+      "row_id": "cat-10",
+      "category": "product",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "product-QC-PERSON-SILKS-ANTI-DANDR-340",
+        "product-QC-PERSON-SILKS-ANTI-DANDR-180",
+        "product-QC-PERSON-SILKS-BODY-LOTIO-200",
+        "product-QC-PERSON-SILKS-BODY-LOTIO-400",
+        "product-QC-PERSON-PUREL-ALOE-FACE--100"
+      ],
+      "tool_calls": [],
+      "total_ms": 10206.6,
+      "total_tokens": 3583,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9095556455244455,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The Silksoft Anti Dandruff Shampoo\u202f340\u202fml is sold at its maximum retail price of INR\u202f385.00, which is also its current selling price, so it is not discounted[1].",
+      "error": null
+    },
+    {
+      "row_id": "store-01",
+      "category": "dark_store",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "store-DS-DEL-001",
+        "policy-delivery",
+        "store-DS-BLR-001",
+        "store-DS-MUM-002",
+        "store-DS-BLR-002"
+      ],
+      "tool_calls": [],
+      "total_ms": 4394.0,
+      "total_tokens": 3069,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999994,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The Saket Dark Store serves the pincodes 110017, 110019, and 110048. [1]",
+      "error": null
+    },
+    {
+      "row_id": "store-02",
+      "category": "dark_store",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "store-DS-DEL-002",
+        "policy-delivery",
+        "store-DS-BLR-002",
+        "store-DS-MUM-002",
+        "store-DS-MUM-001"
+      ],
+      "tool_calls": [],
+      "total_ms": 4460.3,
+      "total_tokens": 3185,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9805766988844257,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      "answer": "The Rohini Dark Store (DS\u2011DEL\u2011002) serves a service radius of 4.0\u202fkm and operates from 07:00 to 22:30 local time. [1]",
+      "error": null
+    },
+    {
+      "row_id": "store-03",
+      "category": "dark_store",
+      "requires_tool": false,
+      "expected_tool": null,
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [
+        "policy-store-ops",
+        "store-DS-MUM-002",
+        "policy-delivery",
+        "policy-delivery",
+        "policy-store-ops"
+      ],
+      "tool_calls": [],
+      "total_ms": 2139.0,
+      "total_tokens": 3081,
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9109042732935472,
+        "context_precision": 0.49999999995,
+        "context_recall": 1.0
+      },
+      "answer": "The Powai Dark Store operates a rider pool of **11 riders** and its average pick\u2011and\u2011pack time is **7 minutes**[2].",
+      "error": null
+    },
+    {
+      "row_id": "live-01",
+      "category": "live_ops",
+      "requires_tool": true,
+      "expected_tool": "get_inventory",
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [],
+      "tool_calls": [
+        {
+          "name": "search_catalog",
+          "arguments": {
+            "limit": 1,
+            "query": "Nandhini Fresh Paneer 200 g"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 90.27445802348666
+        },
+        {
+          "name": "get_inventory",
+          "arguments": {
+            "dark_store": "DS-BLR-001",
+            "sku": "QC-DAIRY--NANDH-PANEER-200"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 13.487625023117289
+        }
+      ],
+      "total_ms": 4715.8,
+      "total_tokens": 4274,
+      "scores": {},
+      "answer": "35 units are currently available at the Indiranagar Dark Store. [2]",
+      "error": null
+    },
+    {
+      "row_id": "live-02",
+      "category": "live_ops",
+      "requires_tool": true,
+      "expected_tool": "get_inventory",
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [],
+      "tool_calls": [
+        {
+          "name": "search_catalog",
+          "arguments": {
+            "limit": 1,
+            "query": "Amulya Gold Salted Butter 500 g"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 71.24837502487935
+        },
+        {
+          "name": "get_inventory",
+          "arguments": {
+            "dark_store": "DS-BLR-001",
+            "sku": "QC-DAIRY--AMULY-SALTED-BUT-500"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 18.201833008788526
+        }
+      ],
+      "total_ms": 6100.7,
+      "total_tokens": 4356,
+      "scores": {},
+      "answer": "It has 0 on\u2011hand, 0 reserved and 0 available units, and is marked as out of stock [2].",
+      "error": null
+    },
+    {
+      "row_id": "live-03",
+      "category": "live_ops",
+      "requires_tool": true,
+      "expected_tool": "get_inventory",
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [],
+      "tool_calls": [
+        {
+          "name": "search_catalog",
+          "arguments": {
+            "limit": 1,
+            "query": "Ovenly Multigrain Bread 400 g"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 8.656958001665771
+        },
+        {
+          "name": "get_inventory",
+          "arguments": {
+            "dark_store": "DS-DEL-001",
+            "sku": "QC-BAKERY-OVENL-MULTIGRAIN-400"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 8.274666994111612
+        }
+      ],
+      "total_ms": 2224.0,
+      "total_tokens": 4294,
+      "scores": {},
+      "answer": "The Saket Dark Store currently has **42 units** of Ovenly\u202fMultigrain\u202fBread\u202f400\u202fg available for sale[2].",
+      "error": null
+    },
+    {
+      "row_id": "live-04",
+      "category": "live_ops",
+      "requires_tool": true,
+      "expected_tool": "get_inventory",
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [],
+      "tool_calls": [
+        {
+          "name": "search_catalog",
+          "arguments": {
+            "query": "Frostbite Green Peas Frozen 1000 g"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 9.988374979002401
+        },
+        {
+          "name": "get_inventory",
+          "arguments": {
+            "dark_store": "DS-MUM-002",
+            "sku": "QC-FROZEN-FROST-GREEN-PEAS-1000"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 10.581833019386977
+        }
+      ],
+      "total_ms": 2730.5,
+      "total_tokens": 4382,
+      "scores": {},
+      "answer": "The Frostbite Green Peas Frozen\u202f1000\u202fg at the Powai Dark Store is **not** below its reorder point; the inventory shows 34 units available and the reorder point is 24, so it is above the reorder threshold[2].",
+      "error": null
+    },
+    {
+      "row_id": "live-05",
+      "category": "live_ops",
+      "requires_tool": true,
+      "expected_tool": "get_inventory",
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [],
+      "tool_calls": [
+        {
+          "name": "search_catalog",
+          "arguments": {
+            "query": "Annapurti Sona Masoori Rice 10 kg"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 125.94779199571349
+        },
+        {
+          "name": "get_inventory",
+          "arguments": {
+            "dark_store": "DS-BLR-001",
+            "sku": "QC-STAPLE-ANNAP-SONA-MASOO-10"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 17.52462500007823
+        }
+      ],
+      "total_ms": 19854.3,
+      "total_tokens": 4423,
+      "scores": {},
+      "answer": "Annapurti Sona Masoori Rice\u202f10\u202fkg is not available at the Indiranagar Dark Store; there are 0 units available (0 on hand, 0 reserved) and the item is out of stock[2].",
+      "error": null
+    },
+    {
+      "row_id": "live-06",
+      "category": "live_ops",
+      "requires_tool": true,
+      "expected_tool": "get_inventory",
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [],
+      "tool_calls": [
+        {
+          "name": "search_catalog",
+          "arguments": {
+            "query": "Yolkwell Farm Eggs 12 pieces"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 8.646166999824345
+        },
+        {
+          "name": "get_inventory",
+          "arguments": {
+            "dark_store": "DS-DEL-002",
+            "sku": "QC-DAIRY--YOLKW-FARM-EGGS-12"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 15.16687500406988
+        }
+      ],
+      "total_ms": 28375.9,
+      "total_tokens": 4281,
+      "scores": {},
+      "answer": "The Rohini Dark Store currently has **162 units** of Yolkwell Farm Eggs 12 pieces available for sale[2].",
+      "error": null
+    },
+    {
+      "row_id": "live-07",
+      "category": "live_ops",
+      "requires_tool": true,
+      "expected_tool": "get_inventory",
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [],
+      "tool_calls": [
+        {
+          "name": "search_catalog",
+          "arguments": {
+            "query": "Zestara Cold Brew Coffee 500 ml"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 10.746916988864541
+        },
+        {
+          "name": "get_inventory",
+          "arguments": {
+            "dark_store": "DS-MUM-001",
+            "sku": "QC-BEVERA-ZESTA-COLD-BREW--500"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 9.626915998524055
+        }
+      ],
+      "total_ms": 25642.4,
+      "total_tokens": 4356,
+      "scores": {},
+      "answer": "Zestara Cold Brew Coffee\u202f500\u202fml at the Andheri\u202fWest Dark Store has **136 on\u2011hand units** and **2 reserved units**[2].",
+      "error": null
+    },
+    {
+      "row_id": "live-08",
+      "category": "live_ops",
+      "requires_tool": true,
+      "expected_tool": "get_inventory",
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [],
+      "tool_calls": [
+        {
+          "name": "search_catalog",
+          "arguments": {
+            "query": "Tinytots Baby Diapers Medium 32 pieces"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 12.235374975716695
+        },
+        {
+          "name": "get_inventory",
+          "arguments": {
+            "dark_store": "DS-BLR-002",
+            "sku": "QC-BABY-C-TINYT-BABY-DIAPE-32"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 10.449332999996841
+        }
+      ],
+      "total_ms": 14570.4,
+      "total_tokens": 4410,
+      "scores": {},
+      "answer": "Tinytots Baby Diapers Medium\u202f32\u202fpieces at the Koramangala Dark Store has 137 units available, which is above its reorder point of 12 (below_reorder_point\u202f=\u202ffalse)[2].",
+      "error": null
+    },
+    {
+      "row_id": "live-09",
+      "category": "live_ops",
+      "requires_tool": true,
+      "expected_tool": "search_catalog",
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [],
+      "tool_calls": [
+        {
+          "name": "search_catalog",
+          "arguments": {
+            "limit": 20,
+            "query": "Bhujiawala"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 11.933333007618785
+        }
+      ],
+      "total_ms": 11931.0,
+      "total_tokens": 3948,
+      "scores": {},
+      "answer": "The catalog contains the following Bhujiawala products:\n- Bhujiawala Aloo Bhujia\u202f200\u202fg \u2013 SKU\u202fQC\u2011SNACKS\u2011BHUJI\u2011ALOO\u2011BHUJI\u2011200[1]\n- Bhujiawala Aloo Bhujia\u202f400\u202fg \u2013 SKU\u202fQC\u2011SNACKS\u2011BHUJI\u2011ALOO\u2011BHUJI\u2011400[1]\n- Bhujiawala Moong Dal Namkeen\u202f200\u202fg \u2013 SKU\u202fQC\u2011SNACKS\u2011BHUJI\u2011MOONG\u2011DAL\u2011\u2011200[1]\n- Bhujiawala Moong Dal Namkeen\u202f400\u202fg \u2013 SKU\u202fQC\u2011SNACKS\u2011BHUJI\u2011MOONG\u2011DAL\u2011\u2011400[1]",
+      "error": null
+    },
+    {
+      "row_id": "live-10",
+      "category": "live_ops",
+      "requires_tool": true,
+      "expected_tool": "search_catalog",
+      "refused": false,
+      "citation_count": 1,
+      "retrieved_doc_ids": [],
+      "tool_calls": [
+        {
+          "name": "search_catalog",
+          "arguments": {
+            "limit": 20,
+            "query": "paneer"
+          },
+          "ok": true,
+          "error": null,
+          "latency_ms": 7.840291014872491
+        }
+      ],
+      "total_ms": 10106.6,
+      "total_tokens": 3472,
+      "scores": {},
+      "answer": "The catalog contains the following paneer products:\n- **Chefsnap Paneer Butter Masala Ready Meal 285 g** \u2013 SKU QC-FROZEN-CHEFS-PANEER-BUT-285, price INR 160.05, ambient storage [1]\n- **Nandhini Fresh Paneer 200 g** \u2013 SKU QC-DAIRY--NANDH-PANEER-200, price INR 83.6, chilled storage [1]\n- **Nandhini Fresh Paneer 400 g** \u2013 SKU QC-DAIRY--NANDH-PANEER-400, price INR 158.4, chilled storage [1]",
+      "error": null
+    }
+  ]
+}

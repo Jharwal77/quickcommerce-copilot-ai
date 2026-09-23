@@ -1,0 +1,11 @@
+{
+  "seed": 20240501,
+  "generated_for_reference_time": "2026-03-14T09:30:00+00:00",
+  "synthetic": true,
+  "counts": {
+    "dark_stores": 6,
+    "products": 88,
+    "inventory_rows": 528,
+    "orders": 40
+  }
+}

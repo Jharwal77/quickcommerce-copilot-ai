@@ -1,0 +1,4226 @@
+[
+  {
+    "sku": "QC-FRUITS-FARML-TOMATO-HYB-500",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 157,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-TOMATO-HYB-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 80,
+    "reserved_units": 3,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ONION-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 145,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ONION-2000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 122,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-BANANA-ROB-500",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 7,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-14T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-BANANA-ROB-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 146,
+    "reserved_units": 2,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-BABY-SPINA-100",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 143,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-BABY-SPINA-250",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 87,
+    "reserved_units": 1,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-CHERRY-TOM-200",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 32,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-CHERRY-TOM-400",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 5,
+    "reserved_units": 4,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ALPHONSO-M-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 49,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-TONED-MILK-500",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 41,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-TONED-MILK-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 18,
+    "reserved_units": 1,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-FULL-CREAM-500",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 153,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-FULL-CREAM-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 34,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-CURD-400",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 148,
+    "reserved_units": 2,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-CURD-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 173,
+    "reserved_units": 4,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-PANEER-200",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 40,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-PANEER-400",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 113,
+    "reserved_units": 5,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--AMULY-SALTED-BUT-100",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 143,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--AMULY-SALTED-BUT-500",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--YOLKW-FARM-EGGS-6",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 94,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--YOLKW-FARM-EGGS-12",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 34,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-ORANGE-JUI-200",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 29,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-ORANGE-JUI-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 6,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-COLD-BREW--200",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 35,
+    "reserved_units": 4,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-COLD-BREW--500",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 41,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-FIZZK-LEMON-SODA-250",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 149,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-FIZZK-LEMON-SODA-750",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 142,
+    "reserved_units": 4,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-CHAIW-MASALA-CHA-200",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 147,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-CHAIW-MASALA-CHA-500",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 105,
+    "reserved_units": 4,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-HYDRA-ELECTROLYT-100",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 160,
+    "reserved_units": 2,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-14T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-HYDRA-ELECTROLYT-250",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 60,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-SALTED-POT-52",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 99,
+    "reserved_units": 4,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-SALTED-POT-90",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 71,
+    "reserved_units": 4,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-PERI-PERI--52",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 132,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-PERI-PERI--90",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 39,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-ALOO-BHUJI-200",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 63,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-ALOO-BHUJI-400",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 36,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-MOONG-DAL--200",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-MOONG-DAL--400",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 117,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-ROASTED-AL-200",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 157,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-ROASTED-AL-500",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 15,
+    "reserved_units": 1,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-14T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-200",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 156,
+    "reserved_units": 5,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-400",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 9,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-SONA-MASOO-5",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 125,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-SONA-MASOO-10",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-5",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 174,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-10T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-10",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 164,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-TOOR-DAL-500",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 65,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-TOOR-DAL-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 152,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-CHANA-DAL-500",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 106,
+    "reserved_units": 1,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-CHANA-DAL-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 96,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-GOLDP-SUNFLOWER--1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 89,
+    "reserved_units": 3,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-GOLDP-COLD-PRESS-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 83,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-ALOE-FACE--100",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 14,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-ALOE-FACE--200",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 42,
+    "reserved_units": 4,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-SUNSCREEN--50",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 136,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-SUNSCREEN--100",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 107,
+    "reserved_units": 1,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-DENTI-FLUORIDE-T-100",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-DENTI-FLUORIDE-T-200",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 159,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-ANTI-DANDR-180",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 46,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-ANTI-DANDR-340",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 55,
+    "reserved_units": 5,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-BODY-LOTIO-200",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 98,
+    "reserved_units": 3,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-BODY-LOTIO-400",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 129,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-DISHWASH-G-500",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 161,
+    "reserved_units": 1,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-DISHWASH-G-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-FLOOR-CLEA-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-LAUNDRY-LI-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 21,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-LAUNDRY-LI-2000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 59,
+    "reserved_units": 4,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---WRAPW-GARBAGE-BA-30",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 69,
+    "reserved_units": 1,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---WRAPW-GARBAGE-BA-60",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 145,
+    "reserved_units": 1,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-DIAPE-32",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 6,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-DIAPE-62",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 143,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-WIPES-72",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 153,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-14T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-WIPES-144",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 138,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-LOTIO-100",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 52,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-LOTIO-200",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 171,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-GREEN-PEAS-500",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-GREEN-PEAS-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 56,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-MIXED-VEGE-500",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 102,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-MIXED-VEGE-1000",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 141,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-ALOO-TIKKI-400",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 57,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-CHEFS-PANEER-BUT-285",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 153,
+    "reserved_units": 2,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-14T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-WHOLE-WHEA-400",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-14T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-MULTIGRAIN-400",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 144,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-BUTTER-CRO-2",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 179,
+    "reserved_units": 6,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-14T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-BUTTER-CRO-4",
+    "store_id": "DS-BLR-001",
+    "on_hand_units": 128,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-TOMATO-HYB-500",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 44,
+    "reserved_units": 1,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-14T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-TOMATO-HYB-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 22,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ONION-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 158,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ONION-2000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 14,
+    "reserved_units": 3,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-14T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-BANANA-ROB-500",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 126,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-BANANA-ROB-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 35,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-14T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-BABY-SPINA-100",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 158,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-BABY-SPINA-250",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 80,
+    "reserved_units": 4,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-CHERRY-TOM-200",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-CHERRY-TOM-400",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 106,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ALPHONSO-M-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 66,
+    "reserved_units": 6,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-TONED-MILK-500",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 34,
+    "reserved_units": 3,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-TONED-MILK-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 9,
+    "reserved_units": 2,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-FULL-CREAM-500",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 74,
+    "reserved_units": 6,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-FULL-CREAM-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 173,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-CURD-400",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 140,
+    "reserved_units": 4,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-CURD-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 51,
+    "reserved_units": 1,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-PANEER-200",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-PANEER-400",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 135,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--AMULY-SALTED-BUT-100",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 74,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-10T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--AMULY-SALTED-BUT-500",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 59,
+    "reserved_units": 4,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--YOLKW-FARM-EGGS-6",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 130,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--YOLKW-FARM-EGGS-12",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 171,
+    "reserved_units": 5,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-14T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-ORANGE-JUI-200",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 42,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-ORANGE-JUI-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 97,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-COLD-BREW--200",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 145,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-COLD-BREW--500",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 148,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-FIZZK-LEMON-SODA-250",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 79,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-FIZZK-LEMON-SODA-750",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-CHAIW-MASALA-CHA-200",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 9,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-CHAIW-MASALA-CHA-500",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 32,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-HYDRA-ELECTROLYT-100",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 63,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-HYDRA-ELECTROLYT-250",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-SALTED-POT-52",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 82,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-SALTED-POT-90",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 7,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-10T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-PERI-PERI--52",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 25,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-PERI-PERI--90",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-ALOO-BHUJI-200",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 177,
+    "reserved_units": 1,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-ALOO-BHUJI-400",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-MOONG-DAL--200",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 122,
+    "reserved_units": 5,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-MOONG-DAL--400",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 119,
+    "reserved_units": 3,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-ROASTED-AL-200",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-ROASTED-AL-500",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 109,
+    "reserved_units": 2,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-200",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 130,
+    "reserved_units": 1,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-400",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 49,
+    "reserved_units": 1,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-SONA-MASOO-5",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 166,
+    "reserved_units": 4,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-SONA-MASOO-10",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 85,
+    "reserved_units": 1,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-5",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 83,
+    "reserved_units": 1,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-10",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 92,
+    "reserved_units": 5,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-TOOR-DAL-500",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 150,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-TOOR-DAL-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 116,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-CHANA-DAL-500",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-CHANA-DAL-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 7,
+    "reserved_units": 4,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-GOLDP-SUNFLOWER--1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 121,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-GOLDP-COLD-PRESS-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 125,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-ALOE-FACE--100",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 179,
+    "reserved_units": 1,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-ALOE-FACE--200",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 99,
+    "reserved_units": 1,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-SUNSCREEN--50",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 117,
+    "reserved_units": 3,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-SUNSCREEN--100",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 90,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-DENTI-FLUORIDE-T-100",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 157,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-DENTI-FLUORIDE-T-200",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 108,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-ANTI-DANDR-180",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 95,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-ANTI-DANDR-340",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 59,
+    "reserved_units": 2,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-BODY-LOTIO-200",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 131,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-BODY-LOTIO-400",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 64,
+    "reserved_units": 1,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-DISHWASH-G-500",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-DISHWASH-G-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 109,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-FLOOR-CLEA-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 163,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-LAUNDRY-LI-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 57,
+    "reserved_units": 4,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-LAUNDRY-LI-2000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---WRAPW-GARBAGE-BA-30",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 88,
+    "reserved_units": 6,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---WRAPW-GARBAGE-BA-60",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 85,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-DIAPE-32",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 140,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-DIAPE-62",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 172,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-WIPES-72",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 103,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-WIPES-144",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 119,
+    "reserved_units": 3,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-10T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-LOTIO-100",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 91,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-LOTIO-200",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 169,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-GREEN-PEAS-500",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 176,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-GREEN-PEAS-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 128,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-MIXED-VEGE-500",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 86,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-14T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-MIXED-VEGE-1000",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 148,
+    "reserved_units": 4,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-ALOO-TIKKI-400",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 154,
+    "reserved_units": 3,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-CHEFS-PANEER-BUT-285",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-WHOLE-WHEA-400",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 170,
+    "reserved_units": 6,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-MULTIGRAIN-400",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 76,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-BUTTER-CRO-2",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 18,
+    "reserved_units": 5,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-BUTTER-CRO-4",
+    "store_id": "DS-BLR-002",
+    "on_hand_units": 105,
+    "reserved_units": 4,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-TOMATO-HYB-500",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 178,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-TOMATO-HYB-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 138,
+    "reserved_units": 3,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ONION-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 151,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ONION-2000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 4,
+    "reserved_units": 3,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-BANANA-ROB-500",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 146,
+    "reserved_units": 1,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-14T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-BANANA-ROB-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 118,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-BABY-SPINA-100",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 30,
+    "reserved_units": 5,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-BABY-SPINA-250",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 19,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-CHERRY-TOM-200",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 105,
+    "reserved_units": 6,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-CHERRY-TOM-400",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 180,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ALPHONSO-M-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-TONED-MILK-500",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-TONED-MILK-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 163,
+    "reserved_units": 3,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-FULL-CREAM-500",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 38,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-FULL-CREAM-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 134,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-CURD-400",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 50,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-CURD-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 168,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-14T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-PANEER-200",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 117,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-PANEER-400",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 134,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--AMULY-SALTED-BUT-100",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 66,
+    "reserved_units": 2,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--AMULY-SALTED-BUT-500",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 102,
+    "reserved_units": 1,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--YOLKW-FARM-EGGS-6",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--YOLKW-FARM-EGGS-12",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 99,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-ORANGE-JUI-200",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 94,
+    "reserved_units": 2,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-ORANGE-JUI-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-COLD-BREW--200",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 15,
+    "reserved_units": 4,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-COLD-BREW--500",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 82,
+    "reserved_units": 4,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-FIZZK-LEMON-SODA-250",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 172,
+    "reserved_units": 4,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-FIZZK-LEMON-SODA-750",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 103,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-CHAIW-MASALA-CHA-200",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 114,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-CHAIW-MASALA-CHA-500",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 117,
+    "reserved_units": 4,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-HYDRA-ELECTROLYT-100",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 87,
+    "reserved_units": 1,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-HYDRA-ELECTROLYT-250",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-SALTED-POT-52",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 47,
+    "reserved_units": 1,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-SALTED-POT-90",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 80,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-PERI-PERI--52",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 57,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-14T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-PERI-PERI--90",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-14T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-ALOO-BHUJI-200",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-ALOO-BHUJI-400",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 20,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-MOONG-DAL--200",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 107,
+    "reserved_units": 4,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-MOONG-DAL--400",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 27,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-ROASTED-AL-200",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 64,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-ROASTED-AL-500",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 122,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-14T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-200",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 167,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-400",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 129,
+    "reserved_units": 3,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-SONA-MASOO-5",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 90,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-SONA-MASOO-10",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 25,
+    "reserved_units": 3,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-5",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 138,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-10",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 25,
+    "reserved_units": 2,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-TOOR-DAL-500",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 68,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-TOOR-DAL-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 97,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-CHANA-DAL-500",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 71,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-CHANA-DAL-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 90,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-GOLDP-SUNFLOWER--1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 170,
+    "reserved_units": 4,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-GOLDP-COLD-PRESS-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 139,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-ALOE-FACE--100",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 78,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-14T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-ALOE-FACE--200",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-SUNSCREEN--50",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 44,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-SUNSCREEN--100",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 34,
+    "reserved_units": 2,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-DENTI-FLUORIDE-T-100",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 112,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-DENTI-FLUORIDE-T-200",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 120,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-ANTI-DANDR-180",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 171,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-ANTI-DANDR-340",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 180,
+    "reserved_units": 4,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-BODY-LOTIO-200",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 93,
+    "reserved_units": 3,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-BODY-LOTIO-400",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 118,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-DISHWASH-G-500",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 154,
+    "reserved_units": 1,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-DISHWASH-G-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 70,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-14T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-FLOOR-CLEA-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 168,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-LAUNDRY-LI-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 172,
+    "reserved_units": 2,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-LAUNDRY-LI-2000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 51,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---WRAPW-GARBAGE-BA-30",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 137,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---WRAPW-GARBAGE-BA-60",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 65,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-DIAPE-32",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 56,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-DIAPE-62",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 68,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-WIPES-72",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 175,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-WIPES-144",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 130,
+    "reserved_units": 2,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-LOTIO-100",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 99,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-LOTIO-200",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 30,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-GREEN-PEAS-500",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 138,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-GREEN-PEAS-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 36,
+    "reserved_units": 3,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-MIXED-VEGE-500",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 45,
+    "reserved_units": 5,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-MIXED-VEGE-1000",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-ALOO-TIKKI-400",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 47,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-CHEFS-PANEER-BUT-285",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 103,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-WHOLE-WHEA-400",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-MULTIGRAIN-400",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 47,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-BUTTER-CRO-2",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 4,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-BUTTER-CRO-4",
+    "store_id": "DS-DEL-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-TOMATO-HYB-500",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 54,
+    "reserved_units": 3,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-TOMATO-HYB-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 18,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ONION-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 57,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ONION-2000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 99,
+    "reserved_units": 2,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-14T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-BANANA-ROB-500",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 38,
+    "reserved_units": 1,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-BANANA-ROB-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 4,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-BABY-SPINA-100",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 141,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-BABY-SPINA-250",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 76,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-CHERRY-TOM-200",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 102,
+    "reserved_units": 1,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-CHERRY-TOM-400",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ALPHONSO-M-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 69,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-TONED-MILK-500",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 60,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-TONED-MILK-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 98,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-FULL-CREAM-500",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 117,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-FULL-CREAM-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 133,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-CURD-400",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 101,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-CURD-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 15,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-10T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-PANEER-200",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-PANEER-400",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 82,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--AMULY-SALTED-BUT-100",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 28,
+    "reserved_units": 2,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--AMULY-SALTED-BUT-500",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 10,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--YOLKW-FARM-EGGS-6",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 124,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--YOLKW-FARM-EGGS-12",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 168,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-ORANGE-JUI-200",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 14,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-ORANGE-JUI-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 8,
+    "reserved_units": 2,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-COLD-BREW--200",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 100,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-COLD-BREW--500",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 115,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-FIZZK-LEMON-SODA-250",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 37,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-FIZZK-LEMON-SODA-750",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-CHAIW-MASALA-CHA-200",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 137,
+    "reserved_units": 6,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-CHAIW-MASALA-CHA-500",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-HYDRA-ELECTROLYT-100",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-HYDRA-ELECTROLYT-250",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-SALTED-POT-52",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 19,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-SALTED-POT-90",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 100,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-PERI-PERI--52",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 77,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-PERI-PERI--90",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 142,
+    "reserved_units": 1,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-ALOO-BHUJI-200",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 36,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-ALOO-BHUJI-400",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-MOONG-DAL--200",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 93,
+    "reserved_units": 2,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-MOONG-DAL--400",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 43,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-ROASTED-AL-200",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 9,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-14T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-ROASTED-AL-500",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 179,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-200",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 33,
+    "reserved_units": 4,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-400",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 140,
+    "reserved_units": 4,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-SONA-MASOO-5",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 93,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-SONA-MASOO-10",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 59,
+    "reserved_units": 4,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-5",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 61,
+    "reserved_units": 1,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-10T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-10",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 129,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-TOOR-DAL-500",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 57,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-TOOR-DAL-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 144,
+    "reserved_units": 4,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-CHANA-DAL-500",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 120,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-CHANA-DAL-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-14T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-GOLDP-SUNFLOWER--1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 130,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-14T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-GOLDP-COLD-PRESS-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 116,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-14T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-ALOE-FACE--100",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-ALOE-FACE--200",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 45,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-14T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-SUNSCREEN--50",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 82,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-SUNSCREEN--100",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 158,
+    "reserved_units": 1,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-DENTI-FLUORIDE-T-100",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 111,
+    "reserved_units": 2,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-DENTI-FLUORIDE-T-200",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 77,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-ANTI-DANDR-180",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 48,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-ANTI-DANDR-340",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 83,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-BODY-LOTIO-200",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 152,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-BODY-LOTIO-400",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 137,
+    "reserved_units": 4,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-DISHWASH-G-500",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 137,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-DISHWASH-G-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 52,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-FLOOR-CLEA-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 158,
+    "reserved_units": 4,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-LAUNDRY-LI-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 33,
+    "reserved_units": 1,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-LAUNDRY-LI-2000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 130,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---WRAPW-GARBAGE-BA-30",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 9,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---WRAPW-GARBAGE-BA-60",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-DIAPE-32",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 69,
+    "reserved_units": 2,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-DIAPE-62",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 161,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-WIPES-72",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 141,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-WIPES-144",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 118,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-LOTIO-100",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 55,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-14T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-LOTIO-200",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 145,
+    "reserved_units": 4,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-GREEN-PEAS-500",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 118,
+    "reserved_units": 5,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-GREEN-PEAS-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 27,
+    "reserved_units": 6,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-MIXED-VEGE-500",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 106,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-MIXED-VEGE-1000",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 55,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-ALOO-TIKKI-400",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 180,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-CHEFS-PANEER-BUT-285",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 54,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-WHOLE-WHEA-400",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 129,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-14T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-MULTIGRAIN-400",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 129,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-BUTTER-CRO-2",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 154,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-BUTTER-CRO-4",
+    "store_id": "DS-DEL-002",
+    "on_hand_units": 79,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-TOMATO-HYB-500",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 91,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-TOMATO-HYB-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 131,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ONION-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 153,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ONION-2000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 28,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-BANANA-ROB-500",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 148,
+    "reserved_units": 2,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-BANANA-ROB-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 18,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-BABY-SPINA-100",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 67,
+    "reserved_units": 1,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-BABY-SPINA-250",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 152,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-CHERRY-TOM-200",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 85,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-CHERRY-TOM-400",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 116,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ALPHONSO-M-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 146,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-TONED-MILK-500",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 157,
+    "reserved_units": 1,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-TONED-MILK-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 27,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-FULL-CREAM-500",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 53,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-FULL-CREAM-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 142,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-CURD-400",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 50,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-CURD-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 56,
+    "reserved_units": 4,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-PANEER-200",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 6,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-PANEER-400",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 94,
+    "reserved_units": 4,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--AMULY-SALTED-BUT-100",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--AMULY-SALTED-BUT-500",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 97,
+    "reserved_units": 3,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--YOLKW-FARM-EGGS-6",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 159,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--YOLKW-FARM-EGGS-12",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-ORANGE-JUI-200",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 62,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-ORANGE-JUI-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 162,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-COLD-BREW--200",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 127,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-COLD-BREW--500",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 136,
+    "reserved_units": 2,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-FIZZK-LEMON-SODA-250",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 35,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-14T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-FIZZK-LEMON-SODA-750",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 106,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-CHAIW-MASALA-CHA-200",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 51,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-CHAIW-MASALA-CHA-500",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 23,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-14T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-HYDRA-ELECTROLYT-100",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-HYDRA-ELECTROLYT-250",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 168,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-SALTED-POT-52",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-SALTED-POT-90",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 10,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-PERI-PERI--52",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 123,
+    "reserved_units": 3,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-PERI-PERI--90",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 50,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-14T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-ALOO-BHUJI-200",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 112,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-ALOO-BHUJI-400",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 166,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-MOONG-DAL--200",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 122,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-MOONG-DAL--400",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 66,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-ROASTED-AL-200",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 78,
+    "reserved_units": 2,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-ROASTED-AL-500",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 159,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-200",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 49,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-400",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 173,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-SONA-MASOO-5",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 78,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-SONA-MASOO-10",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 160,
+    "reserved_units": 4,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-5",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 91,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-10",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 80,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-TOOR-DAL-500",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 18,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-TOOR-DAL-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 39,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-CHANA-DAL-500",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 65,
+    "reserved_units": 4,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-CHANA-DAL-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 127,
+    "reserved_units": 1,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-GOLDP-SUNFLOWER--1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 17,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-GOLDP-COLD-PRESS-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 135,
+    "reserved_units": 4,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-ALOE-FACE--100",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 55,
+    "reserved_units": 5,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-ALOE-FACE--200",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 39,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-SUNSCREEN--50",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 12,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-SUNSCREEN--100",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 12,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-DENTI-FLUORIDE-T-100",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 47,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-DENTI-FLUORIDE-T-200",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 132,
+    "reserved_units": 4,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-ANTI-DANDR-180",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-14T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-ANTI-DANDR-340",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 139,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-BODY-LOTIO-200",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-BODY-LOTIO-400",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 38,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-DISHWASH-G-500",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 21,
+    "reserved_units": 3,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-DISHWASH-G-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 57,
+    "reserved_units": 4,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-FLOOR-CLEA-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-LAUNDRY-LI-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 81,
+    "reserved_units": 5,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-LAUNDRY-LI-2000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 58,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-14T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---WRAPW-GARBAGE-BA-30",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---WRAPW-GARBAGE-BA-60",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 19,
+    "reserved_units": 4,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-DIAPE-32",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 40,
+    "reserved_units": 3,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-DIAPE-62",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-WIPES-72",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 6,
+    "reserved_units": 5,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-WIPES-144",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 22,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-LOTIO-100",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-LOTIO-200",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 173,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-GREEN-PEAS-500",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 146,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-GREEN-PEAS-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 172,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-MIXED-VEGE-500",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 128,
+    "reserved_units": 2,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-MIXED-VEGE-1000",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 26,
+    "reserved_units": 2,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-ALOO-TIKKI-400",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 47,
+    "reserved_units": 3,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-CHEFS-PANEER-BUT-285",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 85,
+    "reserved_units": 1,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-WHOLE-WHEA-400",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 93,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-MULTIGRAIN-400",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 133,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-BUTTER-CRO-2",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 28,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-BUTTER-CRO-4",
+    "store_id": "DS-MUM-001",
+    "on_hand_units": 173,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-TOMATO-HYB-500",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 131,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-TOMATO-HYB-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 158,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ONION-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 24,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ONION-2000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 130,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-14T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-BANANA-ROB-500",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 172,
+    "reserved_units": 4,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-BANANA-ROB-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 119,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-BABY-SPINA-100",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 139,
+    "reserved_units": 3,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-BABY-SPINA-250",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 102,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-CHERRY-TOM-200",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 114,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-GREEN-CHERRY-TOM-400",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-FRUITS-FARML-ALPHONSO-M-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 30,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-TONED-MILK-500",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 91,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-14T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-TONED-MILK-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 93,
+    "reserved_units": 2,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-14T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-FULL-CREAM-500",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 170,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-FULL-CREAM-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-10T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-CURD-400",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 101,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-14T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-CURD-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 163,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-14T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-PANEER-200",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 79,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--NANDH-PANEER-400",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 30,
+    "reserved_units": 0,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T13:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--AMULY-SALTED-BUT-100",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 61,
+    "reserved_units": 1,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--AMULY-SALTED-BUT-500",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-14T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--YOLKW-FARM-EGGS-6",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 168,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-DAIRY--YOLKW-FARM-EGGS-12",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 57,
+    "reserved_units": 1,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-ORANGE-JUI-200",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 85,
+    "reserved_units": 6,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-ORANGE-JUI-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 166,
+    "reserved_units": 4,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-COLD-BREW--200",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 99,
+    "reserved_units": 4,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-ZESTA-COLD-BREW--500",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-FIZZK-LEMON-SODA-250",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 109,
+    "reserved_units": 4,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T00:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-FIZZK-LEMON-SODA-750",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 76,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-CHAIW-MASALA-CHA-200",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-CHAIW-MASALA-CHA-500",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 161,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-HYDRA-ELECTROLYT-100",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 156,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-13T03:30:00+00:00"
+  },
+  {
+    "sku": "QC-BEVERA-HYDRA-ELECTROLYT-250",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 7,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T20:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-SALTED-POT-52",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 146,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-14T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-SALTED-POT-90",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 137,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-10T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-PERI-PERI--52",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 89,
+    "reserved_units": 0,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-CRISP-PERI-PERI--90",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 60,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-ALOO-BHUJI-200",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 56,
+    "reserved_units": 3,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-ALOO-BHUJI-400",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 4,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T10:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-MOONG-DAL--200",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 124,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-12T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-BHUJI-MOONG-DAL--400",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 43,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T09:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-ROASTED-AL-200",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 107,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-ROASTED-AL-500",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 99,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-14T05:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-200",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 89,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-SNACKS-NUTLA-TRAIL-MIX-400",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 116,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-14T06:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-SONA-MASOO-5",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 99,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-SONA-MASOO-10",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 162,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-5",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 134,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-11T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-WHOLE-WHEA-10",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 109,
+    "reserved_units": 1,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-TOOR-DAL-500",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 25,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-TOOR-DAL-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 99,
+    "reserved_units": 4,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-10T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-CHANA-DAL-500",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 116,
+    "reserved_units": 5,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-ANNAP-CHANA-DAL-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 23,
+    "reserved_units": 0,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-GOLDP-SUNFLOWER--1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 89,
+    "reserved_units": 1,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-STAPLE-GOLDP-COLD-PRESS-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 95,
+    "reserved_units": 6,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-ALOE-FACE--100",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 87,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-ALOE-FACE--200",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 87,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-SUNSCREEN--50",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 148,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-PUREL-SUNSCREEN--100",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 149,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T12:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-DENTI-FLUORIDE-T-100",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 165,
+    "reserved_units": 5,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-10T16:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-DENTI-FLUORIDE-T-200",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 48,
+    "reserved_units": 3,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-ANTI-DANDR-180",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 120,
+    "reserved_units": 5,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-10T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-ANTI-DANDR-340",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 178,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-BODY-LOTIO-200",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-PERSON-SILKS-BODY-LOTIO-400",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 114,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-DISHWASH-G-500",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 90,
+    "reserved_units": 3,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-11T19:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-DISHWASH-G-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 51,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-FLOOR-CLEA-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 153,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-13T02:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-LAUNDRY-LI-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 76,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-14T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---SHINE-LAUNDRY-LI-2000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---WRAPW-GARBAGE-BA-30",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 85,
+    "reserved_units": 3,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T11:30:00+00:00"
+  },
+  {
+    "sku": "QC-HOME---WRAPW-GARBAGE-BA-60",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 102,
+    "reserved_units": 4,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-13T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-DIAPE-32",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 36,
+    "reserved_units": 3,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T08:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-DIAPE-62",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 126,
+    "reserved_units": 4,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-WIPES-72",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 45,
+    "reserved_units": 2,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-12T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-WIPES-144",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 16,
+    "reserved_units": 6,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-12T01:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-LOTIO-100",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 130,
+    "reserved_units": 5,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T17:30:00+00:00"
+  },
+  {
+    "sku": "QC-BABY-C-TINYT-BABY-LOTIO-200",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 51,
+    "reserved_units": 6,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-13T14:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-GREEN-PEAS-500",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 73,
+    "reserved_units": 1,
+    "reorder_point": 10,
+    "last_restocked_at": "2026-03-11T22:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-GREEN-PEAS-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 35,
+    "reserved_units": 1,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-11T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-MIXED-VEGE-500",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 37,
+    "reserved_units": 2,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T18:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-MIXED-VEGE-1000",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 4,
+    "reserved_units": 3,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-10T15:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-FROST-ALOO-TIKKI-400",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 29,
+    "reserved_units": 5,
+    "reorder_point": 18,
+    "last_restocked_at": "2026-03-14T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-FROZEN-CHEFS-PANEER-BUT-285",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 83,
+    "reserved_units": 2,
+    "reorder_point": 12,
+    "last_restocked_at": "2026-03-14T07:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-WHOLE-WHEA-400",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 172,
+    "reserved_units": 3,
+    "reorder_point": 24,
+    "last_restocked_at": "2026-03-12T21:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-MULTIGRAIN-400",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 0,
+    "reserved_units": 0,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-13T23:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-BUTTER-CRO-2",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 166,
+    "reserved_units": 6,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-12T04:30:00+00:00"
+  },
+  {
+    "sku": "QC-BAKERY-OVENL-BUTTER-CRO-4",
+    "store_id": "DS-MUM-002",
+    "on_hand_units": 173,
+    "reserved_units": 2,
+    "reorder_point": 6,
+    "last_restocked_at": "2026-03-10T21:30:00+00:00"
+  }
+]

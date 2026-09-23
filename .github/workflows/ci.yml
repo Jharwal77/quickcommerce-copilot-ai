@@ -1,0 +1,193 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      full_eval:
+        description: Run the full 60-row evaluation instead of the smoke set
+        type: boolean
+        default: false
+
+# Only one eval may run at a time: the judge shares one Groq token budget.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      code: ${{ steps.filter.outputs.code }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            code:
+              - 'src/**'
+              - 'data/**'
+              - 'eval/golden/**'
+              - 'eval/golden/**'
+              - 'eval/results/smoke_baseline.json'
+              - 'pyproject.toml'
+              - 'uv.lock'
+              - '.github/workflows/ci.yml'
+
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Install
+        run: |
+          uv venv --python 3.11 .venv
+          VIRTUAL_ENV=.venv uv pip install -e ".[dev,eval]"
+      - name: Lint
+        run: |
+          .venv/bin/ruff check src tests scripts
+          .venv/bin/ruff format --check src tests scripts
+      - name: Unit tests
+        env:
+          TOOLS_BACKEND: sqlite
+        run: .venv/bin/pytest -q
+
+  # A full judged eval costs a day of free-tier budget, so pushes run a fixed 10-row
+  # stratified smoke set and gate on it. The full set runs on demand only.
+  frontend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci --no-fund --no-audit
+      - run: npm run lint
+      - run: npm run build
+
+  smoke-gate:
+    needs: [test, frontend, changes]
+    if: >-
+      (github.event_name == 'push' && github.ref == 'refs/heads/main'
+        && needs.changes.outputs.code == 'true')
+      || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    services:
+      qdrant:
+        image: qdrant/qdrant:v1.19.0
+        ports:
+          - 6333:6333
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      QDRANT_URL: http://localhost:6333
+      TOOLS_BACKEND: sqlite
+      SQLITE_PATH: data/darkstore.sqlite
+      AGENT_MODE: agentic
+      HF_HUB_DISABLE_TELEMETRY: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Install
+        run: |
+          uv venv --python 3.11 .venv
+          VIRTUAL_ENV=.venv uv pip install -e ".[dev,eval]"
+      - name: Check provider keys authenticate
+        run: make preflight
+      - name: Cache embedding model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ hashFiles('pyproject.toml') }}
+      - name: Seed tools database and build index
+        run: |
+          .venv/bin/python -m qc_copilot.tools.seed --sqlite data/darkstore.sqlite
+          .venv/bin/python -m qc_copilot.ingest.pipeline --recreate
+      - name: Smoke eval and gate
+        run: |
+          if [ ! -f eval/results/smoke_baseline.json ]; then
+            echo "::warning::eval/results/smoke_baseline.json is absent; the smoke gate was skipped."
+            exit 0
+          fi
+          set +e
+          make smoke-eval
+          status=$?
+          set -e
+          if [ "$status" -eq 2 ]; then
+            echo "::warning::every provider in the chain hit its daily cap before the smoke set finished; the gate had nothing to compare and was skipped."
+            exit 0
+          fi
+          [ "$status" -eq 0 ]
+          set +e
+          make smoke-gate | tee gate.txt
+          status=${PIPESTATUS[0]}
+          set -e
+          if [ "$status" -eq 3 ]; then
+            echo "::warning::smoke gate not enforced: $(grep 'gate: NOT ENFORCED' gate.txt | sed 's/gate: NOT ENFORCED - //')"
+            exit 0
+          fi
+          exit "$status"
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-report
+          path: eval/results/smoke_ci.json
+
+  full-eval:
+    if: github.event_name == 'workflow_dispatch' && inputs.full_eval
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    services:
+      qdrant:
+        image: qdrant/qdrant:v1.19.0
+        ports:
+          - 6333:6333
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      QDRANT_URL: http://localhost:6333
+      TOOLS_BACKEND: sqlite
+      SQLITE_PATH: data/darkstore.sqlite
+      HF_HUB_DISABLE_TELEMETRY: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Install
+        run: |
+          uv venv --python 3.11 .venv
+          VIRTUAL_ENV=.venv uv pip install -e ".[dev,eval]"
+      - name: Seed tools database and build index
+        run: |
+          .venv/bin/python -m qc_copilot.tools.seed --sqlite data/darkstore.sqlite
+          .venv/bin/python -m qc_copilot.ingest.pipeline --recreate
+      - name: Full eval and gate
+        run: |
+          make eval-full
+          make gate
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-eval-reports
+          path: eval/results/*.json

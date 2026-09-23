@@ -1,0 +1,87 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "quickcommerce-copilot"
+version = "0.1.0"
+description = "Agentic RAG assistant for quick-commerce catalog and operations questions"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+license = { text = "MIT" }
+authors = [{ name = "Rahul Meena", email = "rahuljharwal2468@gmail.com" }]
+maintainers = [{ name = "Rahul Meena", email = "rahuljharwal2468@gmail.com" }]
+keywords = ["rag", "langgraph", "mcp", "qdrant", "quick-commerce"]
+
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.32",
+    "pydantic>=2.9",
+    "pydantic-settings>=2.6",
+    "qdrant-client>=1.12",
+    "onnxruntime>=1.19",
+    "tokenizers>=0.20",
+    "huggingface_hub>=0.25",
+    "numpy>=1.26",
+    "tiktoken>=0.8",
+    "pyyaml>=6.0",
+    "openai>=1.60",
+    "langgraph>=1.0,<1.1",
+    "mcp>=1.2",
+    "mysql-connector-python>=26.7.0",
+    "sentence-transformers>=6.0.1",
+    "google-genai>=2.25.0",
+    "ragas>=0.4.3",
+]
+
+[project.optional-dependencies]
+# sentence-transformers pulls in torch; it is the development and CI embedding backend
+# and the evaluation harness needs it, but the deployed image runs on onnxruntime.
+torch = ["sentence-transformers>=5.0"]
+dev = [
+    "sentence-transformers>=5.0",
+    "pytest>=8.3",
+    "pytest-asyncio>=0.24",
+    "httpx>=0.27",
+    "ruff>=0.8",
+]
+eval = [
+    "sentence-transformers>=5.0",
+    "ragas==0.4.3",
+    # ragas 0.4.3 imports pre-1.0 langchain modules at import time even when the
+    # judge does not use LangChain, so these stay pinned below 1.0 on purpose.
+    "langchain-core<1.0",
+    "langchain-community<0.4",
+    "langchain-openai<1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Jharwal77/quickcommerce-copilot"
+Repository = "https://github.com/Jharwal77/quickcommerce-copilot"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/qc_copilot"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.ruff.lint.per-file-ignores]
+# The catalog templates are wide literal tables. Wrapping the rows to 100 columns
+# makes them much harder to read than leaving them long.
+"scripts/generate_data.py" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+asyncio_mode = "auto"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "ruff>=0.16.6",
+]
