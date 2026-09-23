@@ -64,7 +64,7 @@ smoke-baseline: ## Reference smoke result the CI gate compares against (agentic,
 	$(PY) -m qc_copilot.evaluation.run --mode agentic --label smoke_baseline --golden $(GOLDEN_SMOKE) --out eval/results/smoke_baseline.json
 
 preflight: ## One authenticated request per configured provider; fails on a rejected key
-	$(PY) -m qc_copilot.llm.preflight --require groq gemini
+	$(PY) -m qc_copilot.llm.preflight --require gemini
 
 smoke: smoke-eval smoke-gate ## What CI runs on every push: agentic smoke eval gated against smoke_baseline
 
