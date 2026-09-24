@@ -157,7 +157,9 @@ def create_server(repository: InventoryRepository) -> MCPServer:
 
 def main() -> None:
     settings = get_settings()
+    print(f'MCP START: backend={settings.tools_backend}', file=__import__('sys').stderr, flush=True)
     repository = build_repository(settings)
+    print('MCP REPOSITORY: connected', file=__import__('sys').stderr, flush=True)
 
     try:
         create_server(repository).run(transport="stdio")
