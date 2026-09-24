@@ -1,4 +1,4 @@
-"""Synchronous facade over a persistent MCP stdio session.
+﻿"""Synchronous facade over a persistent MCP stdio session.
 
 The MCP client library is async and its transport is a subprocess pipe. The agent and
 the API are synchronous and are called from worker threads. Rather than spawn a server
@@ -112,6 +112,11 @@ class MCPToolClient:
                 await self._stop.wait()
         except BaseException as exc:
             self._failure = exc
+            print(
+                f"MCP SERVER STARTUP FAILURE: {type(exc).__name__}: {exc}",
+                file=sys.stderr,
+                flush=True,
+            )
             self._ready.set()
             raise
         finally:
@@ -175,3 +180,4 @@ class MCPToolClient:
             time.sleep(0.05)
         self._loop.call_soon_threadsafe(self._loop.stop)
         self._thread.join(timeout=5)
+
