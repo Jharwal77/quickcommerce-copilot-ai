@@ -105,8 +105,8 @@ def build_meta(settings: Settings, chunk_count: int | None, tools: list[str]) ->
             "docs": "/docs",
             "health": "/health",
             "ask": "POST /ask",
-            "source": "https://github.com/Jharwal77/quickcommerce-copilot",
-            "readme": "https://github.com/Jharwal77/quickcommerce-copilot#readme",
+            "source": "https://github.com/Jharwal77/quickcommerce-copilot-ai",
+            "readme": "https://github.com/Jharwal77/quickcommerce-copilot-ai#readme",
         },
         mode=settings.agent_mode,
         tools=tools,
@@ -116,3 +116,4 @@ def build_meta(settings: Settings, chunk_count: int | None, tools: list[str]) ->
         knowledge=knowledge_summary(settings, chunk_count),
         eval=eval_summary(settings.eval_results_dir),
     )
+
