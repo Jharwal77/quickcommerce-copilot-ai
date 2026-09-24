@@ -19,7 +19,7 @@ const TABS: { id: Tab; label: string }[] = [
   { id: "knowledge", label: "What I know" },
 ];
 
-const README = "https://github.com/Jharwal77/quickcommerce-copilot#readme";
+const README = "https://github.com/Jharwal77/quickcommerce-copilot-ai#readme";
 
 export default function App() {
   const [theme, toggleTheme] = useTheme();
@@ -144,3 +144,4 @@ export default function App() {
     </div>
   );
 }
+

@@ -32,7 +32,7 @@ function StatusPill({ health }: { health: Props["health"] }) {
 }
 
 export function Header({ meta, health, theme, onToggleTheme, onHowItWorks }: Props) {
-  const source = meta?.links.source ?? "https://github.com/Jharwal77/quickcommerce-copilot";
+  const source = meta?.links.source ?? "https://github.com/Jharwal77/quickcommerce-copilot-ai";
   return (
     <header className="hairline sticky top-0 z-20 border-b backdrop-blur" style={{ background: "color-mix(in srgb, var(--bg) 88%, transparent)" }}>
       <div className="mx-auto flex max-w-[1400px] flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3 sm:px-6">
@@ -82,3 +82,4 @@ export function Header({ meta, health, theme, onToggleTheme, onHowItWorks }: Pro
     </header>
   );
 }
+
