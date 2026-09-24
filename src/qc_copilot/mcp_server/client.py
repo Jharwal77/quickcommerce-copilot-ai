@@ -1,4 +1,4 @@
-﻿"""Synchronous facade over a persistent MCP stdio session.
+"""Synchronous facade over a persistent MCP stdio session.
 
 The MCP client library is async and its transport is a subprocess pipe. The agent and
 the API are synchronous and are called from worker threads. Rather than spawn a server
@@ -117,6 +117,16 @@ class MCPToolClient:
                 file=sys.stderr,
                 flush=True,
             )
+
+            error_file = "/tmp/mcp-server-error.log"
+            if os.path.exists(error_file):
+                try:
+                    with open(error_file, encoding="utf-8") as f:
+                        child_error = f.read()
+                    print("MCP CHILD PROCESS ERROR:", file=sys.stderr, flush=True)
+                    print(child_error, file=sys.stderr, flush=True)
+                except Exception as log_exc:
+                    print(f"Could not read MCP child error: {log_exc}", file=sys.stderr, flush=True)
             self._ready.set()
             raise
         finally:
